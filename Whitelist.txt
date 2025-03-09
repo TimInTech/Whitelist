@@ -1,3 +1,52 @@
+# Amazon Alexa und verwandte Dienste
+api.eu.amazonalexa.com
+api.amazonalexa.com
+device-metrics-us.amazon.com
+arcus-uswest.amazon.com
+a2ds1q2tpdj48u.us-east-1.prod.service.minerva.devices.a2z.com
+
+# Google-Dienste
+connectivitycheck.gstatic.com
+mtalk.google.com
+alt4-mtalk.google.com
+alt8-mtalk.google.com
+www.googleapis.com
+android.googleapis.com
+play.googleapis.com
+clients4.google.com
+clients.l.google.com
+android.apis.google.com
+
+# Synology-Dienste
+cloudsync-tw.synology.com
+cloudsync.cs.quickconnect.to
+checkip.synology.com
+
+# Tailscale
+controlplane.tailscale.com
+
+# Microsoft-Dienste
+signals.urs.microsoft.com
+prod-atm-wds-signals.trafficmanager.net
+prod-agic-ne-2.northeurope.cloudfront.azure.com
+dcg.microsoft.com
+
+# IoT-Geräte und Smart-Home-Dienste
+a3-eu.lifeaiot.com
+ips1.unifi-ai.com
+checkonline.home-assistant.io
+casaos-appstore.paodayag.dev
+
+# YouTube und verwandte Dienste
+www.youtube.com
+youtube-ui.l.google.com
+
+# Andere wichtige Dienste
+api.met.no
+fcmconnection.googleapis.com
+drivefrontend-pa.googleapis.com
+mmechocaptiveportal.com
+firetvcaptiveportal.com
 example.org
 alexa.amazon.com
 login.microsoftonline.com
