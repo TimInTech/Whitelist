@@ -11,6 +11,15 @@ aax-eu.amazon.de
 aes.eu-west.ono.axp.amazon-adsystem.com
 device-metrics-us.amazon.com
 aax-eu.amazon-adsystem.com
+alexa.amazon.com
+avs-alexa-na.amazon.com
+layla.amazon.com
+pitangui.amazon.com
+dp-gw-na.amazon.com
+softwareupdates.amazon.com
+spectrum.s3.amazonaws.com
+amcs-pa.clients.amazon.com
+
 
 # Google-Dienste
 connectivitycheck.gstatic.com
