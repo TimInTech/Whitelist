@@ -1,9 +1,16 @@
 # Amazon Alexa und verwandte Dienste
 api.eu.amazonalexa.com
+aax.amazon-adsystem.com
 api.amazonalexa.com
 device-metrics-us.amazon.com
 arcus-uswest.amazon.com
 a2ds1q2tpdj48u.us-east-1.prod.service.minerva.devices.a2z.com
+c.amazon-adsystem.com
+mads.amazon-adsystem.com
+aax-eu.amazon.de
+aes.eu-west.ono.axp.amazon-adsystem.com
+device-metrics-us.amazon.com
+aax-eu.amazon-adsystem.com
 
 # Google-Dienste
 connectivitycheck.gstatic.com
@@ -30,6 +37,8 @@ signals.urs.microsoft.com
 prod-atm-wds-signals.trafficmanager.net
 prod-agic-ne-2.northeurope.cloudfront.azure.com
 dcg.microsoft.com
+mobile.pipe.aria.microsoft.com
+
 
 # IoT-Geräte und Smart-Home-Dienste
 a3-eu.lifeaiot.com
@@ -42,6 +51,13 @@ www.youtube.com
 youtube-ui.l.google.com
 
 # Andere wichtige Dienste
+
+logs.netflix.com
+s.click.aliexpress.com
+prophet.heise.de
+pagead2.googlesyndication.com
+collector.github.com
+static.cloudflareinsights.com
 api.met.no
 fcmconnection.googleapis.com
 drivefrontend-pa.googleapis.com
