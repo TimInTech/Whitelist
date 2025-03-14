@@ -19,7 +19,7 @@ dp-gw-na.amazon.com
 softwareupdates.amazon.com
 spectrum.s3.amazonaws.com
 amcs-pa.clients.amazon.com
-
+s.amazon-adsystem.com
 
 # Google-Dienste
 connectivitycheck.gstatic.com
