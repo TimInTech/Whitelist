@@ -22,8 +22,8 @@ spectrum.s3.amazonaws.com
 amcs-pa.clients.amazon.com
 s.amazon-adsystem.com
 device-metrics-us-2.amazon.com
-
-
+secure-eu.nmrodam.com
+browser-intake-datadoghq.com
 # Google-Dienste
 firebaselogging.googleapis.com
 connectivitycheck.gstatic.com
