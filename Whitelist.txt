@@ -3,6 +3,7 @@ api.eu.amazonalexa.com
 aax.amazon-adsystem.com
 api.amazonalexa.com
 device-metrics-us.amazon.com
+api.eu-west-1.aiv-delivery.net
 arcus-uswest.amazon.com
 a2ds1q2tpdj48u.us-east-1.prod.service.minerva.devices.a2z.com
 c.amazon-adsystem.com
@@ -20,8 +21,11 @@ softwareupdates.amazon.com
 spectrum.s3.amazonaws.com
 amcs-pa.clients.amazon.com
 s.amazon-adsystem.com
+device-metrics-us-2.amazon.com
+
 
 # Google-Dienste
+firebaselogging.googleapis.com
 connectivitycheck.gstatic.com
 mtalk.google.com
 alt4-mtalk.google.com
@@ -209,3 +213,4 @@ git-scm.com
 is.gd
 stackoverflow.com
 sourceforge.net
+cdn.optimizely.com
