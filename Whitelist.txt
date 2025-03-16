@@ -1,5 +1,19 @@
 ---
+
 ###
+
+7. Wartung
+Regelmäßige Updates:
+
+pihole -up
+sudo apt update && sudo apt upgrade -y
+Whitelist aktualisieren:
+
+sudo wget -O /etc/pihole/whitelist.txt https://raw.githubusercontent.com/TimInTech/Whitelist/main/Whitelist.txt
+sudo pihole -w --nuke
+sudo xargs -a /etc/pihole/whitelist.txt -I {} pihole -w {}
+
+
 7️⃣ Blocklisten & Whitelist verwalten
 -
 sudo nano /etc/pihole/adlists.list
