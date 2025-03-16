@@ -1,3 +1,19 @@
+---
+###
+7️⃣ Blocklisten & Whitelist verwalten
+-
+sudo nano /etc/pihole/adlists.list
+-
+https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+-
+pihole -g
+-
+wget -O /tmp/whitelist.txt https://raw.githubusercontent.com/TimInTech/Whitelist/main/Whitelist.txt
+xargs -a /tmp/whitelist.txt -I {} pihole allow {}
+-
+sqlite3 /etc/pihole/gravity.db "SELECT domain FROM domainlist WHERE type=0;"
+###
+---
 
 ### **Amazon Alexa und verwandte Dienste**
 
