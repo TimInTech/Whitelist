@@ -1,4 +1,6 @@
-# Amazon Alexa und verwandte Dienste
+
+### **Amazon Alexa und verwandte Dienste**
+
 api.eu.amazonalexa.com
 aax.amazon-adsystem.com
 api.amazonalexa.com
@@ -24,7 +26,9 @@ s.amazon-adsystem.com
 device-metrics-us-2.amazon.com
 secure-eu.nmrodam.com
 browser-intake-datadoghq.com
-# Google-Dienste
+
+### **Google-Dienste**
+
 firebaselogging.googleapis.com
 connectivitycheck.gstatic.com
 mtalk.google.com
@@ -37,15 +41,21 @@ clients4.google.com
 clients.l.google.com
 android.apis.google.com
 
-# Synology-Dienste
+
+### **Synology-Dienste**
+
 cloudsync-tw.synology.com
 cloudsync.cs.quickconnect.to
 checkip.synology.com
 
-# Tailscale
+
+### **Tailscale**
+
 controlplane.tailscale.com
 
-# Microsoft-Dienste
+
+### **Microsoft-Dienste**
+
 signals.urs.microsoft.com
 prod-atm-wds-signals.trafficmanager.net
 prod-agic-ne-2.northeurope.cloudfront.azure.com
@@ -53,17 +63,27 @@ dcg.microsoft.com
 mobile.pipe.aria.microsoft.com
 
 
-# IoT-Geräte und Smart-Home-Dienste
+
+
+### **IoT-Geräte und Smart-Home-Dienste**
+
 a3-eu.lifeaiot.com
 ips1.unifi-ai.com
 checkonline.home-assistant.io
 casaos-appstore.paodayag.dev
 
-# YouTube und verwandte Dienste
+
+
+
+### **YouTube und verwandte Dienste**
+
 www.youtube.com
 youtube-ui.l.google.com
 
-# Andere wichtige Dienste
+
+
+
+### **Andere wichtige Dienste**
 
 logs.netflix.com
 s.click.aliexpress.com
@@ -214,3 +234,25 @@ is.gd
 stackoverflow.com
 sourceforge.net
 cdn.optimizely.com
+
+
+### **Pi-hole Alt**
+
+c.amazon-adsystem.com
+mads.amazon-adsystem.com
+mobile.pipe.aria.microsoft.com
+a-fds.youborafds01.com
+www.googletagmanager.com
+api.eu-west-1.aiv-delivery.net
+device-metrics-us-2.amazon.com
+static.doubleclick.net
+secure-eu.nmrodam.com
+static.cloudflareinsights.com
+pagead2.googlesyndication.com
+prophet.heise.de
+s.click.aliexpress.com
+aax-eu.amazon.de
+aes.eu-west.ono.axp.amazon-adsystem.com
+logs.netflix.com
+device-metrics-us.amazon.com
+aax-eu.amazon-adsystem.com
