@@ -1,38 +1,3 @@
----
-
-###
-
-7. Wartung
-Regelmäßige Updates:
-
-pihole -up
-sudo apt update && sudo apt upgrade -y
-Whitelist aktualisieren:
-
-sudo wget -O /etc/pihole/whitelist.txt https://raw.githubusercontent.com/TimInTech/Whitelist/main/Whitelist.txt
-sudo pihole -w --nuke
-sudo xargs -a /etc/pihole/whitelist.txt -I {} pihole -w {}
----
-wget -O /etc/pihole/whitelist.txt https://raw.githubusercontent.com/TimInTech/Whitelist/main/Whitelist.txt
-pihole -w --nuke
-xargs -a /etc/pihole/whitelist.txt -I {} pihole -w {}
-----
-
-7️⃣ Blocklisten & Whitelist verwalten
--
-sudo nano /etc/pihole/adlists.list
--
-https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
--
-pihole -g
--
-wget -O /tmp/whitelist.txt https://raw.githubusercontent.com/TimInTech/Whitelist/main/Whitelist.txt
-xargs -a /tmp/whitelist.txt -I {} pihole allow {}
--
-sqlite3 /etc/pihole/gravity.db "SELECT domain FROM domainlist WHERE type=0;"
-###
----
-
 ### **Amazon Alexa und verwandte Dienste**
 
 api.eu.amazonalexa.com
