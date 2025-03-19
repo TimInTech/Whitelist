@@ -12,7 +12,11 @@ Whitelist aktualisieren:
 sudo wget -O /etc/pihole/whitelist.txt https://raw.githubusercontent.com/TimInTech/Whitelist/main/Whitelist.txt
 sudo pihole -w --nuke
 sudo xargs -a /etc/pihole/whitelist.txt -I {} pihole -w {}
-
+---
+wget -O /etc/pihole/whitelist.txt https://raw.githubusercontent.com/TimInTech/Whitelist/main/Whitelist.txt
+pihole -w --nuke
+xargs -a /etc/pihole/whitelist.txt -I {} pihole -w {}
+----
 
 7️⃣ Blocklisten & Whitelist verwalten
 -
