@@ -1,4 +1,3 @@
-### Amazon Alexa und verwandte Dienste
 api.eu.amazonalexa.com
 aax.amazon-adsystem.com
 api.amazonalexa.com
@@ -24,8 +23,6 @@ s.amazon-adsystem.com
 device-metrics-us-2.amazon.com
 secure-eu.nmrodam.com
 browser-intake-datadoghq.com
-
-### Google-Dienste
 firebaselogging.googleapis.com
 connectivitycheck.gstatic.com
 mtalk.google.com
@@ -37,33 +34,22 @@ play.googleapis.com
 clients4.google.com
 clients.l.google.com
 android.apis.google.com
-
-### Synology-Dienste
 cloudsync-tw.synology.com
 cloudsync.cs.quickconnect.to
 checkip.synology.com
-
-### Tailscale
 controlplane.tailscale.com
-
-### Microsoft-Dienste
 signals.urs.microsoft.com
 prod-atm-wds-signals.trafficmanager.net
 prod-agic-ne-2.northeurope.cloudfront.azure.com
 dcg.microsoft.com
 mobile.pipe.aria.microsoft.com
-
-### IoT-Geräte und Smart-Home-Dienste
 a3-eu.lifeaiot.com
 ips1.unifi-ai.com
 checkonline.home-assistant.io
 casaos-appstore.paodayag.dev
-
-### YouTube und verwandte Dienste
+YouTube und verwandte Dienste
 www.youtube.com
 youtube-ui.l.google.com
-
-### Andere wichtige Dienste
 logs.netflix.com
 s.click.aliexpress.com
 prophet.heise.de
@@ -213,8 +199,6 @@ is.gd
 stackoverflow.com
 sourceforge.net
 cdn.optimizely.com
-
-### Pi-hole Alt
 c.amazon-adsystem.com
 mads.amazon-adsystem.com
 mobile.pipe.aria.microsoft.com
