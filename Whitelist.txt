@@ -47,7 +47,6 @@ a3-eu.lifeaiot.com
 ips1.unifi-ai.com
 checkonline.home-assistant.io
 casaos-appstore.paodayag.dev
-YouTube und verwandte Dienste
 www.youtube.com
 youtube-ui.l.google.com
 logs.netflix.com
@@ -62,18 +61,8 @@ drivefrontend-pa.googleapis.com
 mmechocaptiveportal.com
 firetvcaptiveportal.com
 example.org
-alexa.amazon.com
 login.microsoftonline.com
 googleapis.com
-api.amazonalexa.com
-device-metrics-us.amazon.com
-avs-alexa-na.amazon.com
-layla.amazon.com
-pitangui.amazon.com
-dp-gw-na.amazon.com
-softwareupdates.amazon.com
-spectrum.s3.amazonaws.com
-amcs-pa.clients.amazon.com
 tuya.com
 smartlife.com
 surplife.com
@@ -126,7 +115,6 @@ dl.google.com
 gvt1.com
 gvt2.com
 gvt3.com
-mtalk.google.com
 fastly.net
 flatpak.org
 registry.fedoraproject.org
@@ -175,12 +163,8 @@ apt.armbian.com
 update.tailscale.com
 tailscale.com
 securepubads.g.doubleclick.net
-secure-eu.nmrodam.com
 event-collector.prd.data.s.joyn.de
-logs.netflix.com
 d3p8zr0ffa9t17.cloudfront.net
-browser-intake-datadoghq.com
-mobile.pipe.aria.microsoft.com
 browser.pipe.aria.microsoft.com
 downloads.sentry-cdn.com
 registry.yarnpkg.com
@@ -199,29 +183,14 @@ is.gd
 stackoverflow.com
 sourceforge.net
 cdn.optimizely.com
-c.amazon-adsystem.com
-mads.amazon-adsystem.com
-mobile.pipe.aria.microsoft.com
 a-fds.youborafds01.com
 www.googletagmanager.com
-api.eu-west-1.aiv-delivery.net
-device-metrics-us-2.amazon.com
 static.doubleclick.net
-secure-eu.nmrodam.com
-static.cloudflareinsights.com
-pagead2.googlesyndication.com
-prophet.heise.de
-s.click.aliexpress.com
-aax-eu.amazon.de
-aes.eu-west.ono.axp.amazon-adsystem.com
-logs.netflix.com
-device-metrics-us.amazon.com
-aax-eu.amazon-adsystem.com
 discovery.syncthing.net
 relays.syncthing.net
 discovery-announce-v4.syncthing.net
 discovery-announce-v6.syncthing.net
-discov# --- Lokale Dienste ---
+# Lokale Dienste
 homeassistant.local
 homeassistant.localdomain
 homeassistant.lan
@@ -234,10 +203,4 @@ printer.local
 esphome.local
 tasmota.local
 octopi.local
-
-
-.local
-.localdomain
-.lan
 ery-lookup.syncthing.net
-
