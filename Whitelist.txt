@@ -221,5 +221,23 @@ discovery.syncthing.net
 relays.syncthing.net
 discovery-announce-v4.syncthing.net
 discovery-announce-v6.syncthing.net
-discovery-lookup.syncthing.net
+discov# --- Lokale Dienste ---
+homeassistant.local
+homeassistant.localdomain
+homeassistant.lan
+pi.hole
+router.local
+mqtt.local
+nas.local
+synology.local
+printer.local
+esphome.local
+tasmota.local
+octopi.local
+
+
+.local
+.localdomain
+.lan
+ery-lookup.syncthing.net
 
