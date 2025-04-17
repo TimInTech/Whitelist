@@ -217,3 +217,9 @@ aes.eu-west.ono.axp.amazon-adsystem.com
 logs.netflix.com
 device-metrics-us.amazon.com
 aax-eu.amazon-adsystem.com
+discovery.syncthing.net
+relays.syncthing.net
+discovery-announce-v4.syncthing.net
+discovery-announce-v6.syncthing.net
+discovery-lookup.syncthing.net
+
