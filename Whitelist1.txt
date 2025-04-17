@@ -109,3 +109,9 @@ files.pythonhosted.org
 archive.raspberrypi.org
 update.tailscale.com
 tailscale.com
+discovery.syncthing.net
+relays.syncthing.net
+discovery-announce-v4.syncthing.net
+discovery-announce-v6.syncthing.net
+discovery-lookup.syncthing.net
+
