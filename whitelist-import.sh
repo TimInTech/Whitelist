@@ -1,22 +1,30 @@
 #!/bin/bash
-# Whitelist Import Script for Pi-hole
-# Usage: sudo ./whitelist-import.sh
 
-if [[ $EUID -ne 0 ]]; then
-   echo "This script must be run as root (sudo)" 
-   exit 1
+# Pfad zur Whitelist
+WL_URL="https://raw.githubusercontent.com/TimInTech/Whitelist/main/Whitelist.txt"
+WL_FILE="/tmp/Whitelist.txt"
+
+# Prüfe, ob Pi-hole installiert ist
+if ! command -v pihole &> /dev/null; then
+  echo "Pi-hole not found. Exiting."
+  exit 1
 fi
 
-FILE="Whitelist.combined.txt"
-if [ ! -f "$FILE" ]; then
-    echo "File $FILE not found!"
-    exit 1
+# Download der Whitelist
+echo "[+] Downloading whitelist from: $WL_URL"
+wget -q -O "$WL_FILE" "$WL_URL"
+
+if [ $? -ne 0 ] || [ ! -s "$WL_FILE" ]; then
+  echo "[!] Failed to download or file is empty. Abort."
+  exit 2
 fi
 
-while IFS= read -r domain
-do
-    if [[ "$domain" =~ ^#.*$ || -z "$domain" ]]; then
-        continue
-    fi
-    pihole -w "$domain"
-done < "$FILE"
+# Optional: Bisherige Einträge entfernen
+echo "[+] Removing previous whitelist entries (optional)..."
+pihole allow --nuke
+
+# Importiere alle Domains
+echo "[+] Importing entries..."
+xargs -a "$WL_FILE" -r -I {} pihole allow "{}"
+
+echo "[✓] Whitelist import completed."
