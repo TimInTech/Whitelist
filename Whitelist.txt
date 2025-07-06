@@ -204,3 +204,37 @@ esphome.local
 tasmota.local
 octopi.local
 ery-lookup.syncthing.net
+# Tuya Cloud Services
+openapi.tuyaus.com
+openapi.tuyain.com
+openapi.tuyaeu.com
+operator.tuyaus.com
+operator.tuyain.com
+operator.tuyaeu.com
+iot.tuyaus.com
+iot.tuyain.com
+iot.tuyaeu.com
+# Home Assistant Services
+registry.home-assistant.io
+pypi.home-assistant.io
+updates.home-assistant.io
+supervisor.home-assistant.io
+# Lokale Tuya (TinyTuya / PyTuya)
+tinytuya.local
+# GitHub/CDN Ergänzungen
+api.github.com
+cdn.jsdelivr.net
+ports.ubuntu.com
+releases.ubuntu.com
+changelogs.ubuntu.com
+cloud-images.ubuntu.com
+repo.proxmox.com
+download.proxmox.com
+cdn.proxmox.com
+enterprise.proxmox.com
+auth.spotify.com
+accounts.spotify.com
+auth.spotify.com
+accounts.spotify.com
+
+
