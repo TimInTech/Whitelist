@@ -1,4 +1,3 @@
-### Finale Pi-hole Whitelist (Kombiniert aus allen Quellen) ###
 a-fds.youborafds01.com
 a.smartlife.com
 a.tuyacn.com
