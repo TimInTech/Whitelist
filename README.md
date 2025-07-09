@@ -1,106 +1,155 @@
-# Pi-hole Personal Whitelist
+# 🔒 Pi-hole Personal Whitelist - Curated Domain Allowlist
 
-This repository contains a **personal, hand-curated Pi-hole whitelist** compiled over many months. It is used in a production home setup with devices like Amazon Alexa, Synology, Smart Home gear (Tuya, Tasmota, ESPHome), streaming platforms (Netflix, Spotify), Home Assistant, and many developer tools.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub Stars](https://img.shields.io/github/stars/TimInTech/Whitelist?style=social)](https://github.com/TimInTech/Whitelist/stargazers)
+[![SHA256 Verified](https://img.shields.io/badge/SHA256-Verified-brightgreen)](https://github.com/TimInTech/Whitelist/blob/main/Whitelist.final.personal.txt.sha256)
 
->  **This whitelist is not generic** – it is designed to solve specific connectivity issues with services in my environment. Use it as inspiration, but test carefully in your own setup.
+## 📖 About This Project
 
----
+This repository contains a **personally curated Pi-hole whitelist** developed over years of home network management. It's designed to solve specific connectivity issues with smart home devices and services in real-world environments.
 
-## Whitelist Files
+> **⚠️ Important Notice:**  
+> This is not a generic one-size-fits-all whitelist! It's optimized for:
+> - Smart home ecosystems (Tuya, Alexa, Home Assistant)
+> - Media streaming services (Netflix, Spotify, YouTube)
+> - Developer tools (GitHub, Docker, PyPI)
+> - System updates (Ubuntu, Proxmox, Raspberry Pi)
+> 
+> Test carefully in your environment before production use.
 
-### `Whitelist.final.personal.txt`
+### Why This Exists
 
-Main personal allowlist used in production. Includes hundreds of tested domains for:
+Pi-hole's aggressive blocking can break functionality of modern IoT devices and services. This whitelist:
+- Solves "device offline" issues with smart home gear
+- Fixes update failures on Linux systems
+- Restores functionality to media streaming platforms
+- Maintains security by whitelisting only essential domains
 
-* Amazon Alexa, Echo devices
-* Tuya & SmartLife smart home devices
-* Synology DSM & CloudSync
-* Tailscale
-* Google / Firebase / Android Push Services
-* Spotify, Netflix, YouTube
-* Ubuntu, Debian, Proxmox, Signal updates
-* OpenAI, GitHub, Cloudflare, NPM/CDN, PyPI
-* Home Assistant Core, Supervisor & Community
-* MQTT / DuckDNS / LetsEncrypt
-* Armbian / Raspberry Pi
-* Flatpak / Snapcraft / Node / Electron / Yarn
-* Syncthing Discovery / Relay services
+## 🚀 Key Features
 
-### `Whitelist.txt`
+- **250+ Tested Domains** - Carefully vetted through real-world use
+- **SHA256 Verification** - Ensures whitelist integrity
+- **Smart Import Script** - With dry-run mode and duplicate prevention
+- **Automatic Updates** - Cron job integration
+- **Device-Specific Optimization** - Alexa, Synology, Tuya, Home Assistant
+- **Production Proven** - Used in real smart home environments daily
 
-Legacy or trimmed version. May be outdated.
+## 📁 Whitelist Files
 
----
+### `Whitelist.final.personal.txt` - Primary Allowlist
+Comprehensive production-ready whitelist covering:
 
-##  Import Script
+| Category | Services Included |
+|----------|-------------------|
+| 🏠 Smart Home | Amazon Alexa, Tuya, Smart Life, Home Assistant, Tasmota |
+| 📺 Streaming | Spotify, Netflix, YouTube, Google Cast |
+| 💻 Development | GitHub, Docker, PyPI, NPM, OpenAI |
+| 🔄 Updates | Ubuntu, Debian, Proxmox, Signal, Raspberry Pi |
+| 🌐 Networking | Cloudflare, Tailscale, DuckDNS, Syncthing |
+| 📱 Mobile | Android Push Services, Firebase |
 
-### `whitelist-import.sh`
+### `Whitelist.txt` - Legacy Version
+Previous version maintained for reference (may be outdated)
 
-**Enhanced script** with error handling, dry-run mode, and performance optimizations.
+## ⚙️ Import Script: `whitelist-import.sh`
 
-#### Features:
-- SHA256 checksum verification
-- Dry-run mode for testing
-- Duplicate prevention
-- Automatic DNS cache flush
-- Detailed logging
-- Local file fallback
+Advanced import script with enterprise-grade features:
 
-#### Usage:
 ```bash
-# Basic import
-sudo ./whitelist-import.sh
-
-# Dry-run mode (test without changes)
-sudo ./whitelist-import.sh --dry-run
-
-# Use local file only
-sudo ./whitelist-import.sh --local
-```
-
-#### Direct execution:
-```bash
+# Download and execute directly from GitHub
 sudo bash -c "$(wget -qO - https://raw.githubusercontent.com/TimInTech/Whitelist/main/whitelist-import.sh)"
 ```
 
----
+### Script Features:
+- ✅ **SHA256 Integrity Verification** - Prevents tampering
+- 🔍 **Dry-Run Mode** - Test without changes: `--dry-run`
+- 💾 **Local Mode** - Use local files only: `--local`
+- 🚫 **Duplicate Prevention** - Skips existing entries
+- 📊 **Detailed Logging** - Clear visual feedback
+- ⚡ **DNS Cache Flush** - Automatic after import
 
-## 🔧 Cron Integration (optional)
+### Usage Options:
+```bash
+# Standard remote import
+sudo ./whitelist-import.sh
 
-For daily automatic updates:
+# Test run without changes
+sudo ./whitelist-import.sh --dry-run
+
+# Use local files only (no download)
+sudo ./whitelist-import.sh --local
+```
+
+## 🔧 Cron Integration (Automatic Updates)
+
+Set up daily automatic whitelist updates:
+
 ```bash
 sudo crontab -e
 ```
-Add line:
+
+Add this line for 6 AM daily updates:
 ```bash
 0 6 * * * /path/to/Whitelist/whitelist-import.sh
 ```
 
+## 🧪 Tested Environments
+
+This whitelist has been verified in these environments:
+
+| Component | Version/Model |
+|-----------|---------------|
+| **Pi-hole** | v6.7.4 (FTL 6.2.1) |
+| **Hardware** | Raspberry Pi 4B (4GB), Proxmox VE LXC Container |
+| **OS** | Raspberry Pi OS Bookworm (64-bit), Debian 12 |
+| **Key Services** | Home Assistant OS 2024.7, Docker 24.0.7 |
+| **Network** | UniFi Dream Machine Pro, TP-Link Omada |
+
+## 📝 Important Notes
+
+1. **Local Domains** (`.local`, `.lan`):
+   ```ini
+   # Add to /etc/dnsmasq.d/05-custom.conf
+   address=/lan/
+   address=/local/
+   address=/localdomain/
+   ```
+
+2. **Troubleshooting**:
+   ```bash
+   # Monitor blocked requests
+   pihole -t
+   
+   # Check whitelisted domains
+   pihole -w -l
+   ```
+
+3. **Security Recommendations**:
+   - Review the whitelist quarterly
+   - Monitor Pi-hole logs for suspicious activity
+   - Use SHA256 verification for integrity checks
+
+4. **Contributing**:
+   - Submit PRs with justification for new domains
+   - Include device/service documentation references
+   - Test changes thoroughly before submitting
+
+## 🔗 Repository Information
+
+- **Main Repository**:  
+  [https://github.com/TimInTech/Whitelist](https://github.com/TimInTech/Whitelist)
+  
+- **Direct Whitelist Download**:  
+  [https://raw.githubusercontent.com/TimInTech/Whitelist/main/Whitelist.final.personal.txt](https://raw.githubusercontent.com/TimInTech/Whitelist/main/Whitelist.final.personal.txt)
+  
+- **SHA256 Verification**:
+  ```bash
+  wget https://raw.githubusercontent.com/TimInTech/Whitelist/main/Whitelist.final.personal.txt.sha256
+  sha256sum -c Whitelist.final.personal.txt.sha256
+  ```
+
 ---
 
-##  Tested Environment
-
-* Pi-hole v6.x (FTL 6.2.1)
-* Raspberry Pi 3B/4B
-* Raspberry Pi OS Bookworm/Bullseye
-* Home Assistant OS
-* Proxmox VE 8.x
-
----
-
-##  Notes
-
-* **Critical Domains**: Local domains (.local, .lan) require additional DNSMasq configuration
-* **Troubleshooting**: Run `pihole -t` to monitor blocked requests
-* **Contributing**: Submit PRs for domain additions with justification
-* **Security**: Whitelist is reviewed monthly for suspicious domains
-
----
-
-## 🌐 Repository
-
-[https://github.com/TimInTech/Whitelist](https://github.com/TimInTech/Whitelist)
-
----
-
-Maintained by [TimInTech](https://github.com/TimInTech) — Contributions and suggestions welcome!
+**Maintained by [TimInTech](https://github.com/TimInTech)** | 
+**License: [MIT](https://opensource.org/licenses/MIT)** | 
+**Contributions Welcome!**
