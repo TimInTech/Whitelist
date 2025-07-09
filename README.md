@@ -1,104 +1,80 @@
-Pi-hole Minimal Whitelist
+# Pi-hole Personal Whitelist
 
-Dieses Repository stellt eine einfache, ungekürzte Whitelist bereit, die über Monate hinweg gesammelt wurde, um Probleme mit IoT-Geräten, Smart-Home-Diensten und Webdiensten (Spotify, Alexa, Synology, MQTT, Google etc.) im Heimnetzwerk zu lösen.
+This repository contains a **personal Pi-hole whitelist**, collected and refined over time through real-life testing.  
+It solves connectivity issues for smart home devices (e.g. Alexa, Tuya), media services (e.g. Spotify, Netflix), system updates (Ubuntu, Proxmox), developer tools, and more.
 
-> ⚠️ Hinweis: Diese Liste ist individuell angepasst. Sie ist nicht universell einsetzbar. Nutze sie nur, wenn du ähnliche Dienste nutzt – und beobachte die Auswirkungen.
-
-
-
-
----
-
-🔖 Datei
-
-Whitelist.final.personal.txt
-
-Enthält alle gesammelten, funktionierenden Domains für folgende Dienste:
-
-Amazon Alexa & Echo
-
-Tuya & SmartLife Geräte
-
-Synology Cloud & DSM
-
-Tailscale
-
-Spotify, Netflix, YouTube
-
-Google Dienste & Android Push
-
-OpenAI / GitHub / Cloudflare / CDNs
-
-Ubuntu, Debian, Proxmox, Signal
-
-Home Assistant & MQTT / Nabu Casa
-
-Syncthing
-
-Let’s Encrypt, DuckDNS, Armbian
-
-
-
+> ⚠️ This list is **personal** – it includes hundreds of domains added after troubleshooting issues in a real home network.  
+> It's not a universal or "safe-for-everyone" list. Use at your own risk.
 
 ---
 
-🚀 Import-Skript
+## ✅ What’s Included
 
-whitelist-import.sh
+The file `Whitelist.final.personal.txt` includes allowlist entries for:
 
-Lädt automatisch die Whitelist von GitHub
-
-Fügt sie via pihole allow ein
-
-Erkennt doppelte Einträge
-
-Benötigt nur wget + Pi-hole CLI (keine weiteren Tools)
-
-
-🔧 Verwendung:
-
-wget https://raw.githubusercontent.com/TimInTech/Whitelist/main/whitelist-import.sh -O whitelist-import.sh
-chmod +x whitelist-import.sh
-sudo ./whitelist-import.sh
-
+- **Amazon Alexa / Echo / FireTV**
+- **Tuya / SmartLife / Tasmota / MQTT**
+- **Synology (DSM, CloudSync, QuickConnect)**
+- **Google / Firebase / Android push / Chromecast**
+- **Spotify / Netflix / YouTube**
+- **Ubuntu / Debian / Proxmox / Signal**
+- **GitHub / OpenAI / CDNs / PyPI / Yarn / NPM**
+- **Home Assistant / ESPHome / Supervisor**
+- **DNS services / Docker / Armbian / Raspberry Pi**
+- **Node.js / Snapcraft / Flatpak / Electron**
+- **Syncthing / Local LAN entries**
 
 ---
 
-📝 Hinweise
+## Download & Import
 
-Wenn du manuell importieren willst:
+This is the easiest method to import all entries into your Pi-hole v6.x setup.
 
+### Run this on your Pi-hole:
 
+```bash
 wget -O /tmp/Whitelist.txt https://raw.githubusercontent.com/TimInTech/Whitelist/main/Whitelist.final.personal.txt
 xargs -a /tmp/Whitelist.txt -I {} pihole allow {}
+````
 
-Du kannst das Skript regelmäßig per Cronjob ausführen, z. B.:
+* All domains will be added using the `pihole allow` command.
+* Existing or duplicate domains will be skipped automatically.
+* You don’t need to install any extra software.
 
+---
 
+## Optional: Add to Cron (Auto-Update)
+
+To keep your whitelist up to date:
+
+```bash
 sudo crontab -e
+```
 
-Dann einfügen:
+Add this line to run daily at 06:00:
 
-0 6 * * * wget -qO - https://raw.githubusercontent.com/TimInTech/Whitelist/main/whitelist-import.sh | bash
-
-
----
-
-✅ Getestete Umgebung
-
-Raspberry Pi 3B mit Raspbian Bookworm
-
-Pi-hole v6.1.1 Core / FTL 6.2.1
-
-Kein Unbound, kein Docker
-
-
+```bash
+0 6 * * * wget -O - https://raw.githubusercontent.com/TimInTech/Whitelist/main/Whitelist.final.personal.txt | xargs -I {} pihole allow {}
+```
 
 ---
 
-🌐 Projekt-Link
+## 🛠 Requirements
 
-https://github.com/TimInTech/Whitelist
+* Pi-hole v6.x
+* Raspberry Pi OS or Debian/Ubuntu
+* No additional tools required (uses built-in Pi-hole CLI)
 
-Maintained by TimInTech
+---
+
+## Notes
+
+* You can inspect or modify the list at any time.
+* It may include entries that enable telemetry, update checks, or ads (required for full functionality of devices like Alexa or FireTV).
+* Best used for **private setups** where functionality > strict blocking.
+
+---
+
+Maintained by [TimInTech](https://github.com/TimInTech)
+Feedback and PRs welcome!
 
