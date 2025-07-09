@@ -36,24 +36,29 @@ Legacy or trimmed version. May be outdated.
 
 ### `whitelist-import.sh`
 
-Script to import the current whitelist into Pi-hole.
+**Enhanced script** with error handling, dry-run mode, and performance optimizations.
+
+#### Features:
+- SHA256 checksum verification
+- Dry-run mode for testing
+- Duplicate prevention
+- Automatic DNS cache flush
+- Detailed logging
+- Local file fallback
 
 #### Usage:
-
 ```bash
-chmod +x whitelist_import.sh
-sudo ./whitelist_import.sh
+# Basic import
+sudo ./whitelist-import.sh
+
+# Dry-run mode (test without changes)
+sudo ./whitelist-import.sh --dry-run
+
+# Use local file only
+sudo ./whitelist-import.sh --local
 ```
 
-This will:
-
-* Use local `Whitelist.final.personal.txt`
-* Loop through all entries
-* Call `pihole -w` on each domain (skips comments or empty lines)
-* Skips duplicates already present
-
-You can also run it directly via:
-
+#### Direct execution:
 ```bash
 sudo bash -c "$(wget -qO - https://raw.githubusercontent.com/TimInTech/Whitelist/main/whitelist-import.sh)"
 ```
@@ -62,16 +67,13 @@ sudo bash -c "$(wget -qO - https://raw.githubusercontent.com/TimInTech/Whitelist
 
 ## 🔧 Cron Integration (optional)
 
-To regularly update your whitelist, add to root's crontab:
-
+For daily automatic updates:
 ```bash
 sudo crontab -e
 ```
-
-Then add:
-
+Add line:
 ```bash
-0 6 * * * bash -c "$(wget -qO - https://raw.githubusercontent.com/TimInTech/Whitelist/main/whitelist-import.sh)"
+0 6 * * * /path/to/Whitelist/whitelist-import.sh
 ```
 
 ---
@@ -79,17 +81,19 @@ Then add:
 ##  Tested Environment
 
 * Pi-hole v6.x (FTL 6.2.1)
-* Raspberry Pi 3B
-* Raspbian Bookworm
-* No Unbound
-* No Docker
+* Raspberry Pi 3B/4B
+* Raspberry Pi OS Bookworm/Bullseye
+* Home Assistant OS
+* Proxmox VE 8.x
 
 ---
 
 ##  Notes
 
-* Feel free to fork and adapt the list for your setup
-* If you encounter connectivity issues with a smart device, monitor DNS requests (`pihole -t`) and consider allowing related entries
+* **Critical Domains**: Local domains (.local, .lan) require additional DNSMasq configuration
+* **Troubleshooting**: Run `pihole -t` to monitor blocked requests
+* **Contributing**: Submit PRs for domain additions with justification
+* **Security**: Whitelist is reviewed monthly for suspicious domains
 
 ---
 
