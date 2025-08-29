@@ -9,10 +9,12 @@ aax-eu.amazon-adsystem.com
 aax-eu.amazon.de
 aax.amazon-adsystem.com
 acme-v02.api.letsencrypt.org
+accounts.spotify.com
 adguard-dns.com
 adguard.com
 aes.eu-west.ono.axp.amazon-adsystem.com
 alexa.amazon.com
+alexa.amazon.de
 alt4-mtalk.google.com
 alt8-mtalk.google.com
 amazon.com
@@ -28,6 +30,8 @@ api.eu.amazonalexa.com
 api.met.no
 api.snapcraft.io
 api.spotify.com
+api.tuyacn.com
+api.tuyaeu.com
 api.tuyaus.com
 app-measurement.com
 apt.armbian.com
@@ -45,8 +49,8 @@ captive.apple.com
 casaos-appstore.paodayag.dev
 cast.google.com
 cast.googleapis.com
-cdn.cloudflare.com
 cdn.jsdelivr.net
+cdn.cloudflare.com
 cdn.openai.com
 cdn.optimizely.com
 cdn.proxmox.com
@@ -68,6 +72,7 @@ controlplane.tailscale.com
 d3p82r0ffa9t17.cloudfront.net
 dcg.microsoft.com
 deb.debian.org
+device-metrics.amazon.com
 device-metrics-us-2.amazon.com
 device-metrics-us.amazon.com
 device-metrics-us.samsung.com
@@ -82,6 +87,7 @@ download.mono-project.com
 downloads.plex.tv
 downloads.raspberrypi.org
 downloads.sentry-cdn.com
+dp-gw-eu.amazon.com
 dp-gw-na.amazon.com
 drivefrontend-pa.googleapis.com
 duckdns.org
@@ -90,13 +96,12 @@ enterprise.proxmox.com
 ery-lookup.syncthing.net
 esphome.local
 event-collector.prd.data.s.joyn.de
-example.org
 extra.linuxmint.com
 fastly.net
 fcm.googleapis.com
 fcmconnection.googleapis.com
-firebaselogging.googleapis.com
 firebase.googleapis.com
+firebaselogging.googleapis.com
 firetvcaptiveportal.com
 flatpak.org
 fonts.googleapis.com
@@ -120,6 +125,8 @@ home-assistant.io
 homeassistant.lan
 homeassistant.local
 homeassistant.localdomain
+images.tuyacn.com
+images.tuyaeu.com
 ips1.unifi-ai.com
 is.gd
 keyserver.ubuntu.com
@@ -154,12 +161,12 @@ ocsp.int-x3.letsencrypt.org
 octopi.local
 openai.com
 ota-cloudfront.samsung.com
-packages.linuxmint.com
-packages.ubuntu.com
-pagead2.googlesyndication.com
 p2p.tuyacn.com
 p2p.tuyaeu.com
 p2p.tuyaus.com
+packages.linuxmint.com
+packages.ubuntu.com
+pagead2.googlesyndication.com
 pi.hole
 pitangui.amazon.com
 play.google.com
@@ -171,6 +178,7 @@ printer.local
 prod-agic-ne-2.northeurope.cloudfront.azure.com
 prod-atm-wds-signals.trafficmanager.net
 prophet.heise.de
+pscdn.co
 px1.smartlife.com
 px1.tuyaus.com
 pypi.org
@@ -200,7 +208,10 @@ softwareupdates.amazon.com
 sourceforge.net
 spclient.wg.spotify.com
 spectrum.s3.amazonaws.com
+spotilocal.com
 spotify.com
+spotifycdn.com
+spotifycdn.net
 stackoverflow.com
 static.cloudflareinsights.com
 static.doubleclick.net
@@ -212,6 +223,7 @@ tailscale.com
 tasmota.local
 time.cloudflare.com
 time.google.com
+tospotify.com
 tuya.com
 tuyacn.com
 tuyaeu.com
