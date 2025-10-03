@@ -14,7 +14,6 @@ alexa-skills-kit-python-sdk.readthedocs.io
 alt4-mtalk.google.com
 alt8-mtalk.google.com
 amazon.com
-amazon.com:443
 amazonexteu.qualtrics.com
 AMAZON.LITERAL
 amazon.science
@@ -127,14 +126,12 @@ gvt1.com
 gvt2.com
 gvt3.com
 hass.io
-hassio-addons.io
 home-assistant.io
 html.games.alexa.a2z.com
 images.tuyacn.com
 images.tuyaeu.com
 ips1.unifi-ai.com
 is.gd
-jsdelivr.com
 keyserver.ubuntu.com
 keyserver.ubuntu.org
 kubernetes.io
@@ -157,7 +154,6 @@ mqtt.tuyaus.com
 m.smartlife.com
 mtalk.google.com
 m.tuyaus.com
-nabu.casa
 netcup-02.armbian.com
 netflix.com
 nflxso.net
@@ -218,9 +214,7 @@ spotify.com
 spotilocal.com
 stackoverflow.com
 static.cloudflareinsights.com
-supervisor.home-assistant.io
 surplife.com
-synology.com:443
 tailscale.com
 time.cloudflare.com
 tospotify.com
