@@ -2,3 +2,13 @@
 *.bak
 *.tmp
 .env
+wl.normalized.txt
+wl.mapped.txt
+wl.resolvable.txt
+wl.sample.txt
+wl.updated.txt
+redirects.suggest.tsv
+mappings.rules
+additions-candidate.txt
+current*.txt
+new-*.txt
