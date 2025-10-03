@@ -365,7 +365,7 @@
 365| Alexa.TimeHoldController
 366| Alexa.ToggleController
 367| Alexa.WakeOnLANController
-368| Amazon.com
+368| amazon.com
 369| amazonexteu.qualtrics.com
 370| AMAZON.LITERAL
 371| amazon.science
