@@ -12,3 +12,4 @@ mappings.rules
 additions-candidate.txt
 current*.txt
 new-*.txt
+cacert.pem
