@@ -1,244 +1,247 @@
-a-fds.youborafds01.com
-a.smartlife.com
-a.tuyacn.com
-a.tuyaeu.com
-a.tuyaus.com
-a2ds1q2tpdj48u.us-east-1.prod.service.minerva.devices.a2z.com
-a3-eu.lifeaiot.com
-aax-eu.amazon-adsystem.com
-aax-eu.amazon.de
-aax.amazon-adsystem.com
-acme-v02.api.letsencrypt.org
-accounts.spotify.com
-adguard-dns.com
-adguard.com
-aes.eu-west.ono.axp.amazon-adsystem.com
-alexa.amazon.com
-alexa.amazon.de
-alt4-mtalk.google.com
-alt8-mtalk.google.com
-amazon.com
-amazonalexa.com
-amazonvideo.com
-amcs-pa.clients.amazon.com
-android.apis.google.com
-android.clients.google.com
-android.googleapis.com
-api.amazonalexa.com
-api.eu-west-1.aiv-delivery.net
-api.eu.amazonalexa.com
-api.met.no
-api.snapcraft.io
-api.spotify.com
-api.tuyacn.com
-api.tuyaeu.com
-api.tuyaus.com
-app-measurement.com
-apt.armbian.com
-archive.canonical.com
-archive.raspberrypi.org
-archive.ubuntu.com
-arcus-uswest.amazon.com
-avs-alexa-na.amazon.com
-beacons5.gvt2.com
-beacons5.gvt3.com
-browser-intake-datadoghq.com
-browser.pipe.aria.microsoft.com
-c.amazon-adsystem.com
-captive.apple.com
-casaos-appstore.paodayag.dev
-cast.google.com
-cast.googleapis.com
-cdn.jsdelivr.net
-cdn.cloudflare.com
-cdn.openai.com
-cdn.optimizely.com
-cdn.proxmox.com
-cdnjs.cloudflare.com
-changelogs.ubuntu.com
-chat.openai.com
-checkip.synology.com
-checkonline.home-assistant.io
-clients.l.google.com
-clients4.google.com
-cloud-images.ubuntu.com
-cloudflare-dns.com
-cloudsync-tw.synology.com
-cloudsync.cs.quickconnect.to
-collector.github.com
-community.home-assistant.io
-connectivitycheck.gstatic.com
-controlplane.tailscale.com
-d3p82r0ffa9t17.cloudfront.net
-dcg.microsoft.com
-deb.debian.org
-device-metrics.amazon.com
-device-metrics-us-2.amazon.com
-device-metrics-us.amazon.com
-device-metrics-us.samsung.com
-discovery-announce-v4.syncthing.net
-discovery-announce-v6.syncthing.net
-discovery.syncthing.net
-dl.flathub.org
-dl.google.com
-docker.io
-docs.github.com
-download.mono-project.com
-downloads.plex.tv
-downloads.raspberrypi.org
-downloads.sentry-cdn.com
-dp-gw-eu.amazon.com
-dp-gw-na.amazon.com
-drivefrontend-pa.googleapis.com
-duckdns.org
-electronjs.org
-enterprise.proxmox.com
-ery-lookup.syncthing.net
-esphome.local
-event-collector.prd.data.s.joyn.de
-extra.linuxmint.com
-fastly.net
-fcm.googleapis.com
-fcmconnection.googleapis.com
-firebase.googleapis.com
-firebaselogging.googleapis.com
-firetvcaptiveportal.com
-flatpak.org
-fonts.googleapis.com
-fonts.gstatic.com
-fpm.connect.synology.com
-git-scm.com
-github.com
-githubassets.com
-githubusercontent.com
-googleapis.com
-googlehomefoyer-pa.clients6.google.com
-googlehomefoyer-pa.googleapis.com
-gpt.openai.com
-gstatic.com
-gvt1.com
-gvt2.com
-gvt3.com
-hass.io
-hassio-addons.io
-home-assistant.io
-homeassistant.lan
-homeassistant.local
-homeassistant.localdomain
-images.tuyacn.com
-images.tuyaeu.com
-ips1.unifi-ai.com
-is.gd
-keyserver.ubuntu.com
-keyserver.ubuntu.org
-kubernetes.io
-layla.amazon.com
-letsencrypt.org
-login.microsoftonline.com
-logs.netflix.com
-m.smartlife.com
-m.tuyaus.com
-mads.amazon-adsystem.com
-mmechocaptiveportal.com
-mobile.pipe.aria.microsoft.com
-motd.ubuntu.com
-mqtt.googleapis.com
-mqtt.local
-mqtt.org
-mqtt.tuyacn.com
-mqtt.tuyaeu.com
-mqtt.tuyaus.com
-mtalk.google.com
-nabu.casa
-nas.local
-netflix.com
-nflxso.net
-nflxvideo.net
-nodejs.dev
-nodejs.org
-ntp.ubuntu.com
-ocsp.int-x3.letsencrypt.org
-octopi.local
-openai.com
-ota-cloudfront.samsung.com
-p2p.tuyacn.com
-p2p.tuyaeu.com
-p2p.tuyaus.com
-packages.linuxmint.com
-packages.ubuntu.com
-pagead2.googlesyndication.com
-pi.hole
-pitangui.amazon.com
-play.google.com
-play.googleapis.com
-pool.ntp.org
-ports.ubuntu.com
-ppa.launchpad.net
-printer.local
-prod-agic-ne-2.northeurope.cloudfront.azure.com
-prod-atm-wds-signals.trafficmanager.net
-prophet.heise.de
-pscdn.co
-px1.smartlife.com
-px1.tuyaus.com
-pypi.org
-python.org
-quay.io
-raw.githubusercontent.com
-registry.fedoraproject.org
-registry.npmjs.org
-registry.yarnpkg.com
-relays.syncthing.net
-releases.ubuntu.com
-repo.kali.org
-router.local
-s.amazon-adsystem.com
-s.click.aliexpress.com
-samsung.com
-samsungcloud.com
-scdn.co
-secure-eu.nmrodam.com
-securepubads.g.doubleclick.net
-security.ubuntu.com
-signals.urs.microsoft.com
-smartlife.com
-smartthings.com
-snapcraft.io
-softwareupdates.amazon.com
-sourceforge.net
-spclient.wg.spotify.com
-spectrum.s3.amazonaws.com
-spotilocal.com
-spotify.com
-spotifycdn.com
-spotifycdn.net
-stackoverflow.com
-static.cloudflareinsights.com
-static.doubleclick.net
-supervisor.home-assistant.io
-surplife.com
-synology.com
-synology.local
-tailscale.com
-tasmota.local
-time.cloudflare.com
-time.google.com
-tospotify.com
-tuya.com
-tuyacn.com
-tuyaeu.com
-tuyaus.com
-unpkg.com
-update.tailscale.com
-updates.google.com
-updates.home-assistant.io
-updates.proxmox.com
-updates.signal.org
-www.googleapis.com
-www.googletagmanager.com
-www.synology.com
-www.youtube.com
-yarnpkg.com
-youtube-ui.l.google.com
-youtube.com
-ytimg.com
+1| a-fds.youborafds01.com
+2| a.smartlife.com
+3| a.tuyacn.com
+4| a.tuyaeu.com
+5| a.tuyaus.com
+6| a2ds1q2tpdj48u.us-east-1.prod.service.minerva.devices.a2z.com
+7| a3-eu.lifeaiot.com
+8| aax-eu.amazon-adsystem.com
+9| aax-eu.amazon.de
+10| aax.amazon-adsystem.com
+11| acme-v02.api.letsencrypt.org
+12| accounts.spotify.com
+13| adguard-dns.com
+14| adguard.com
+15| aes.eu-west.ono.axp.amazon-adsystem.com
+16| alexa.amazon.com
+17| alexa.amazon.de
+18| alt4-mtalk.google.com
+19| alt8-mtalk.google.com
+20| amazon.com
+21| amazonalexa.com
+22| amazonvideo.com
+23| amcs-pa.clients.amazon.com
+24| android.apis.google.com
+25| android.clients.google.com
+26| android.googleapis.com
+27| api.amazonalexa.com
+28| api.eu-west-1.aiv-delivery.net
+29| api.eu.amazonalexa.com
+30| api.met.no
+31| api.snapcraft.io
+32| api.spotify.com
+33| api.tuyacn.com
+34| api.tuyaeu.com
+35| api.tuyaus.com
+36| app-measurement.com
+37| apt.armbian.com
+38| archive.canonical.com
+39| archive.raspberrypi.org
+40| archive.ubuntu.com
+41| arcus-uswest.amazon.com
+42| avs-alexa-na.amazon.com
+43| beacons5.gvt2.com
+44| beacons5.gvt3.com
+45| browser-intake-datadoghq.com
+46| browser.pipe.aria.microsoft.com
+47| c.amazon-adsystem.com
+48| captive.apple.com
+49| casaos-appstore.paodayag.dev
+50| cast.google.com
+51| cast.googleapis.com
+52| cdn.jsdelivr.net
+53| cdn.cloudflare.com
+54| cdn.openai.com
+55| cdn.optimizely.com
+56| cdn.proxmox.com
+57| cdnjs.cloudflare.com
+58| changelogs.ubuntu.com
+59| chat.openai.com
+60| checkip.synology.com
+61| checkonline.home-assistant.io
+62| clients.l.google.com
+63| clients4.google.com
+64| cloud-images.ubuntu.com
+65| cloudflare-dns.com
+66| cloudsync-tw.synology.com
+67| cloudsync.cs.quickconnect.to
+68| collector.github.com
+69| community.home-assistant.io
+70| connectivitycheck.gstatic.com
+71| controlplane.tailscale.com
+72| d3p82r0ffa9t17.cloudfront.net
+73| dcg.microsoft.com
+74| deb.debian.org
+75| device-metrics.amazon.com
+76| device-metrics-us-2.amazon.com
+77| device-metrics-us.amazon.com
+78| device-metrics-us.samsung.com
+79| discovery-announce-v4.syncthing.net
+80| discovery-announce-v6.syncthing.net
+81| discovery.syncthing.net
+82| dl.flathub.org
+83| dl.google.com
+84| docker.io
+85| docs.github.com
+86| download.mono-project.com
+87| downloads.plex.tv
+88| downloads.raspberrypi.org
+89| downloads.sentry-cdn.com
+90| dp-gw-eu.amazon.com
+91| dp-gw-na.amazon.com
+92| drivefrontend-pa.googleapis.com
+93| duckdns.org
+94| electronjs.org
+95| enterprise.proxmox.com
+96| ery-lookup.syncthing.net
+97| esphome.local
+98| event-collector.prd.data.s.joyn.de
+99| extra.linuxmint.com
+100| fastly.net
+101| fcm.googleapis.com
+102| fcmconnection.googleapis.com
+103| firebase.googleapis.com
+104| firebaselogging.googleapis.com
+105| firetvcaptiveportal.com
+106| flatpak.org
+107| fonts.googleapis.com
+108| fonts.gstatic.com
+109| fpm.connect.synology.com
+110| git-scm.com
+111| github.com
+112| githubassets.com
+113| githubusercontent.com
+114| googleapis.com
+115| googlehomefoyer-pa.clients6.google.com
+116| googlehomefoyer-pa.googleapis.com
+117| gpt.openai.com
+118| gstatic.com
+119| gvt1.com
+120| gvt2.com
+121| gvt3.com
+122| hass.io
+123| hassio-addons.io
+124| home-assistant.io
+125| homeassistant.lan
+126| homeassistant.local
+127| homeassistant.localdomain
+128| images.tuyacn.com
+129| images.tuyaeu.com
+130| ips1.unifi-ai.com
+131| is.gd
+132| keyserver.ubuntu.com
+133| keyserver.ubuntu.org
+134| kubernetes.io
+135| layla.amazon.com
+136| letsencrypt.org
+137| login.microsoftonline.com
+138| logs.netflix.com
+139| m.smartlife.com
+140| m.tuyaus.com
+141| mads.amazon-adsystem.com
+142| mmechocaptiveportal.com
+143| mobile.pipe.aria.microsoft.com
+144| motd.ubuntu.com
+145| mqtt.googleapis.com
+146| mqtt.local
+147| mqtt.org
+148| mqtt.tuyacn.com
+149| mqtt.tuyaeu.com
+150| mqtt.tuyaus.com
+151| mtalk.google.com
+152| nabu.casa
+153| nas.local
+154| netflix.com
+155| nflxso.net
+156| nflxvideo.net
+157| nodejs.dev
+158| nodejs.org
+159| ntp.ubuntu.com
+160| ocsp.int-x3.letsencrypt.org
+161| octopi.local
+162| openai.com
+163| ota-cloudfront.samsung.com
+164| p2p.tuyacn.com
+165| p2p.tuyaeu.com
+166| p2p.tuyaus.com
+167| packages.linuxmint.com
+168| packages.ubuntu.com
+169| pagead2.googlesyndication.com
+170| pi.hole
+171| pitangui.amazon.com
+172| play.google.com
+173| play.googleapis.com
+174| pool.ntp.org
+175| ports.ubuntu.com
+176| ppa.launchpad.net
+177| printer.local
+178| prod-agic-ne-2.northeurope.cloudfront.azure.com
+179| prod-atm-wds-signals.trafficmanager.net
+180| prophet.heise.de
+181| pscdn.co
+182| px1.smartlife.com
+183| px1.tuyaus.com
+184| pypi.org
+185| python.org
+186| quay.io
+187| raw.githubusercontent.com
+188| registry.fedoraproject.org
+189| registry.npmjs.org
+190| registry.yarnpkg.com
+191| relays.syncthing.net
+192| releases.ubuntu.com
+193| repo.kali.org
+194| router.local
+195| s.amazon-adsystem.com
+196| s.click.aliexpress.com
+197| samsung.com
+198| samsungcloud.com
+199| scdn.co
+200| secure-eu.nmrodam.com
+201| securepubads.g.doubleclick.net
+202| security.ubuntu.com
+203| signals.urs.microsoft.com
+204| smartlife.com
+205| smartthings.com
+206| snapcraft.io
+207| softwareupdates.amazon.com
+208| sourceforge.net
+209| spclient.wg.spotify.com
+210| spectrum.s3.amazonaws.com
+211| spotilocal.com
+212| spotify.com
+213| spotifycdn.com
+214| spotifycdn.net
+215| stackoverflow.com
+216| static.cloudflareinsights.com
+217| static.doubleclick.net
+218| supervisor.home-assistant.io
+219| surplife.com
+220| synology.com
+221| synology.local
+222| tailscale.com
+223| tasmota.local
+224| time.cloudflare.com
+225| time.google.com
+226| tospotify.com
+227| tuya.com
+228| tuyacn.com
+229| tuyaeu.com
+230| tuyaus.com
+231| unpkg.com
+232| update.tailscale.com
+233| updates.google.com
+234| updates.home-assistant.io
+235| updates.proxmox.com
+236| updates.signal.org
+237| www.googleapis.com
+238| www.googletagmanager.com
+239| www.synology.com
+240| www.youtube.com
+241| yarnpkg.com
+242| youtube-ui.l.google.com
+243| youtube.com
+244| ytimg.com
+245| community.spotify.com
+246| developer-assets.spotifycdn.com
+247| www.spotify.com
