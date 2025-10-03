@@ -1,329 +1,329 @@
-1| 1| 1| 1| a-fds.youborafds01.com
-2| 2| 2| 2| a.smartlife.com
-3| 3| 3| 3| a.tuyacn.com
-4| 4| 4| 4| a.tuyaeu.com
-5| 5| 5| 5| a.tuyaus.com
-6| 6| 6| 6| a2ds1q2tpdj48u.us-east-1.prod.service.minerva.devices.a2z.com
-7| 7| 7| 7| a3-eu.lifeaiot.com
-8| 8| 8| 8| aax-eu.amazon-adsystem.com
-9| 9| 9| 9| aax-eu.amazon.de
-10| 10| 10| 10| aax.amazon-adsystem.com
-11| 11| 11| 11| acme-v02.api.letsencrypt.org
-12| 12| 12| 12| accounts.spotify.com
-13| 13| 13| 13| adguard-dns.com
-14| 14| 14| 14| adguard.com
-15| 15| 15| 15| aes.eu-west.ono.axp.amazon-adsystem.com
-16| 16| 16| 16| alexa.amazon.com
-17| 17| 17| 17| alexa.amazon.de
-18| 18| 18| 18| alt4-mtalk.google.com
-19| 19| 19| 19| alt8-mtalk.google.com
-20| 20| 20| 20| amazon.com
-21| 21| 21| 21| amazonalexa.com
-22| 22| 22| 22| amazonvideo.com
-23| 23| 23| 23| amcs-pa.clients.amazon.com
-24| 24| 24| 24| android.apis.google.com
-25| 25| 25| 25| android.clients.google.com
-26| 26| 26| 26| android.googleapis.com
-27| 27| 27| 27| api.amazonalexa.com
-28| 28| 28| 28| api.eu-west-1.aiv-delivery.net
-29| 29| 29| 29| api.eu.amazonalexa.com
-30| 30| 30| 30| api.met.no
-31| 31| 31| 31| api.snapcraft.io
-32| 32| 32| 32| api.spotify.com
-33| 33| 33| 33| api.tuyacn.com
-34| 34| 34| 34| api.tuyaeu.com
-35| 35| 35| 35| api.tuyaus.com
-36| 36| 36| 36| app-measurement.com
-37| 37| 37| 37| apt.armbian.com
-38| 38| 38| 38| archive.canonical.com
-39| 39| 39| 39| archive.raspberrypi.org
-40| 40| 40| 40| archive.ubuntu.com
-41| 41| 41| 41| arcus-uswest.amazon.com
-42| 42| 42| 42| avs-alexa-na.amazon.com
-43| 43| 43| 43| beacons5.gvt2.com
-44| 44| 44| 44| beacons5.gvt3.com
-45| 45| 45| 45| browser-intake-datadoghq.com
-46| 46| 46| 46| browser.pipe.aria.microsoft.com
-47| 47| 47| 47| c.amazon-adsystem.com
-48| 48| 48| 48| captive.apple.com
-49| 49| 49| 49| casaos-appstore.paodayag.dev
-50| 50| 50| 50| cast.google.com
-51| 51| 51| 51| cast.googleapis.com
-52| 52| 52| 52| cdn.jsdelivr.net
-53| 53| 53| 53| cdn.cloudflare.com
-54| 54| 54| 54| cdn.openai.com
-55| 55| 55| 55| cdn.optimizely.com
-56| 56| 56| 56| cdn.proxmox.com
-57| 57| 57| 57| cdnjs.cloudflare.com
-58| 58| 58| 58| changelogs.ubuntu.com
-59| 59| 59| 59| chat.openai.com
-60| 60| 60| 60| checkip.synology.com
-61| 61| 61| 61| checkonline.home-assistant.io
-62| 62| 62| 62| clients.l.google.com
-63| 63| 63| 63| clients4.google.com
-64| 64| 64| 64| cloud-images.ubuntu.com
-65| 65| 65| 65| cloudflare-dns.com
-66| 66| 66| 66| cloudsync-tw.synology.com
-67| 67| 67| 67| cloudsync.cs.quickconnect.to
-68| 68| 68| 68| collector.github.com
-69| 69| 69| 69| community.home-assistant.io
-70| 70| 70| 70| connectivitycheck.gstatic.com
-71| 71| 71| 71| controlplane.tailscale.com
-72| 72| 72| 72| d3p82r0ffa9t17.cloudfront.net
-73| 73| 73| 73| dcg.microsoft.com
-74| 74| 74| 74| deb.debian.org
-75| 75| 75| 75| device-metrics.amazon.com
-76| 76| 76| 76| device-metrics-us-2.amazon.com
-77| 77| 77| 77| device-metrics-us.amazon.com
-78| 78| 78| 78| device-metrics-us.samsung.com
-79| 79| 79| 79| discovery-announce-v4.syncthing.net
-80| 80| 80| 80| discovery-announce-v6.syncthing.net
-81| 81| 81| 81| discovery.syncthing.net
-82| 82| 82| 82| dl.flathub.org
-83| 83| 83| 83| dl.google.com
-84| 84| 84| 84| docker.io
-85| 85| 85| 85| docs.github.com
-86| 86| 86| 86| download.mono-project.com
-87| 87| 87| 87| downloads.plex.tv
-88| 88| 88| 88| downloads.raspberrypi.org
-89| 89| 89| 89| downloads.sentry-cdn.com
-90| 90| 90| 90| dp-gw-eu.amazon.com
-91| 91| 91| 91| dp-gw-na.amazon.com
-92| 92| 92| 92| drivefrontend-pa.googleapis.com
-93| 93| 93| 93| duckdns.org
-94| 94| 94| 94| electronjs.org
-95| 95| 95| 95| enterprise.proxmox.com
-96| 96| 96| 96| ery-lookup.syncthing.net
-97| 97| 97| 97| esphome.local
-98| 98| 98| 98| event-collector.prd.data.s.joyn.de
-99| 99| 99| 99| extra.linuxmint.com
-100| 100| 100| 100| fastly.net
-101| 101| 101| 101| fcm.googleapis.com
-102| 102| 102| 102| fcmconnection.googleapis.com
-103| 103| 103| 103| firebase.googleapis.com
-104| 104| 104| 104| firebaselogging.googleapis.com
-105| 105| 105| 105| firetvcaptiveportal.com
-106| 106| 106| 106| flatpak.org
-107| 107| 107| 107| fonts.googleapis.com
-108| 108| 108| 108| fonts.gstatic.com
-109| 109| 109| 109| fpm.connect.synology.com
-110| 110| 110| 110| git-scm.com
-111| 111| 111| 111| github.com
-112| 112| 112| 112| githubassets.com
-113| 113| 113| 113| githubusercontent.com
-114| 114| 114| 114| googleapis.com
-115| 115| 115| 115| googlehomefoyer-pa.clients6.google.com
-116| 116| 116| 116| googlehomefoyer-pa.googleapis.com
-117| 117| 117| 117| gpt.openai.com
-118| 118| 118| 118| gstatic.com
-119| 119| 119| 119| gvt1.com
-120| 120| 120| 120| gvt2.com
-121| 121| 121| 121| gvt3.com
-122| 122| 122| 122| hass.io
-123| 123| 123| 123| hassio-addons.io
-124| 124| 124| 124| home-assistant.io
-125| 125| 125| 125| homeassistant.lan
-126| 126| 126| 126| homeassistant.local
-127| 127| 127| 127| homeassistant.localdomain
-128| 128| 128| 128| images.tuyacn.com
-129| 129| 129| 129| images.tuyaeu.com
-130| 130| 130| 130| ips1.unifi-ai.com
-131| 131| 131| 131| is.gd
-132| 132| 132| 132| keyserver.ubuntu.com
-133| 133| 133| 133| keyserver.ubuntu.org
-134| 134| 134| 134| kubernetes.io
-135| 135| 135| 135| layla.amazon.com
-136| 136| 136| 136| letsencrypt.org
-137| 137| 137| 137| login.microsoftonline.com
-138| 138| 138| 138| logs.netflix.com
-139| 139| 139| 139| m.smartlife.com
-140| 140| 140| 140| m.tuyaus.com
-141| 141| 141| 141| mads.amazon-adsystem.com
-142| 142| 142| 142| mmechocaptiveportal.com
-143| 143| 143| 143| mobile.pipe.aria.microsoft.com
-144| 144| 144| 144| motd.ubuntu.com
-145| 145| 145| 145| mqtt.googleapis.com
-146| 146| 146| 146| mqtt.local
-147| 147| 147| 147| mqtt.org
-148| 148| 148| 148| mqtt.tuyacn.com
-149| 149| 149| 149| mqtt.tuyaeu.com
-150| 150| 150| 150| mqtt.tuyaus.com
-151| 151| 151| 151| mtalk.google.com
-152| 152| 152| 152| nabu.casa
-153| 153| 153| 153| nas.local
-154| 154| 154| 154| netflix.com
-155| 155| 155| 155| nflxso.net
-156| 156| 156| 156| nflxvideo.net
-157| 157| 157| 157| nodejs.dev
-158| 158| 158| 158| nodejs.org
-159| 159| 159| 159| ntp.ubuntu.com
-160| 160| 160| 160| ocsp.int-x3.letsencrypt.org
-161| 161| 161| 161| octopi.local
-162| 162| 162| 162| openai.com
-163| 163| 163| 163| ota-cloudfront.samsung.com
-164| 164| 164| 164| p2p.tuyacn.com
-165| 165| 165| 165| p2p.tuyaeu.com
-166| 166| 166| 166| p2p.tuyaus.com
-167| 167| 167| 167| packages.linuxmint.com
-168| 168| 168| 168| packages.ubuntu.com
-169| 169| 169| 169| pagead2.googlesyndication.com
-170| 170| 170| 170| pi.hole
-171| 171| 171| 171| pitangui.amazon.com
-172| 172| 172| 172| play.google.com
-173| 173| 173| 173| play.googleapis.com
-174| 174| 174| 174| pool.ntp.org
-175| 175| 175| 175| ports.ubuntu.com
-176| 176| 176| 176| ppa.launchpad.net
-177| 177| 177| 177| printer.local
-178| 178| 178| 178| prod-agic-ne-2.northeurope.cloudfront.azure.com
-179| 179| 179| 179| prod-atm-wds-signals.trafficmanager.net
-180| 180| 180| 180| prophet.heise.de
-181| 181| 181| 181| pscdn.co
-182| 182| 182| 182| px1.smartlife.com
-183| 183| 183| 183| px1.tuyaus.com
-184| 184| 184| 184| pypi.org
-185| 185| 185| 185| python.org
-186| 186| 186| 186| quay.io
-187| 187| 187| 187| raw.githubusercontent.com
-188| 188| 188| 188| registry.fedoraproject.org
-189| 189| 189| 189| registry.npmjs.org
-190| 190| 190| 190| registry.yarnpkg.com
-191| 191| 191| 191| relays.syncthing.net
-192| 192| 192| 192| releases.ubuntu.com
-193| 193| 193| 193| repo.kali.org
-194| 194| 194| 194| router.local
-195| 195| 195| 195| s.amazon-adsystem.com
-196| 196| 196| 196| s.click.aliexpress.com
-197| 197| 197| 197| samsung.com
-198| 198| 198| 198| samsungcloud.com
-199| 199| 199| 199| scdn.co
-200| 200| 200| 200| secure-eu.nmrodam.com
-201| 201| 201| 201| securepubads.g.doubleclick.net
-202| 202| 202| 202| security.ubuntu.com
-203| 203| 203| 203| signals.urs.microsoft.com
-204| 204| 204| 204| smartlife.com
-205| 205| 205| 205| smartthings.com
-206| 206| 206| 206| snapcraft.io
-207| 207| 207| 207| softwareupdates.amazon.com
-208| 208| 208| 208| sourceforge.net
-209| 209| 209| 209| spclient.wg.spotify.com
-210| 210| 210| 210| spectrum.s3.amazonaws.com
-211| 211| 211| 211| spotilocal.com
-212| 212| 212| 212| spotify.com
-213| 213| 213| 213| spotifycdn.com
-214| 214| 214| 214| spotifycdn.net
-215| 215| 215| 215| stackoverflow.com
-216| 216| 216| 216| static.cloudflareinsights.com
-217| 217| 217| 217| static.doubleclick.net
-218| 218| 218| 218| supervisor.home-assistant.io
-219| 219| 219| 219| surplife.com
-220| 220| 220| 220| synology.com
-221| 221| 221| 221| synology.local
-222| 222| 222| 222| tailscale.com
-223| 223| 223| 223| tasmota.local
-224| 224| 224| 224| time.cloudflare.com
-225| 225| 225| 225| time.google.com
-226| 226| 226| 226| tospotify.com
-227| 227| 227| 227| tuya.com
-228| 228| 228| 228| tuyacn.com
-229| 229| 229| 229| tuyaeu.com
-230| 230| 230| 230| tuyaus.com
-231| 231| 231| 231| unpkg.com
-232| 232| 232| 232| update.tailscale.com
-233| 233| 233| 233| updates.google.com
-234| 234| 234| 234| updates.home-assistant.io
-235| 235| 235| 235| updates.proxmox.com
-236| 236| 236| 236| updates.signal.org
-237| 237| 237| 237| www.googleapis.com
-238| 238| 238| 238| www.googletagmanager.com
-239| 239| 239| 239| www.synology.com
-240| 240| 240| 240| www.youtube.com
-241| 241| 241| 241| yarnpkg.com
-242| 242| 242| 242| youtube-ui.l.google.com
-243| 243| 243| 243| youtube.com
-244| 244| 244| 244| ytimg.com
-245| 245| 245| 245| community.spotify.com
-246| 246| 246| 246| developer-assets.spotifycdn.com
-247| 247| 247| 247| www.spotify.com
-248| 255| 255| accounts.spotify.com
-249| 262| 262| Alexa.AutomationManagement
-250| 265| 265| Alexa.BrightnessController
-251| 267| 267| Alexa.CameraStreamController
-252| 270| 270| Alexa.ChannelController
-253| 272| 272| Alexa.ColorController
-254| 274| 274| Alexa.ColorTemperatureController
-255| 276| 276| Alexa.Commissionable
-256| 280| 280| Alexa.ContactSensor
-257| 282| 282| Alexa.Cooking
-258| 291| 291| Alexa.DataController
-259| 294| 294| alexa.design
-260| 296| 296| Alexa.DeviceUsage
-261| 303| 303| Alexa.DoorbellEventSource
-262| 307| 307| Alexa.EqualizerController
-263| 325| 325| Alexa.HumiditySensor
-264| 327| 327| Alexa.InputController
-265| 331| 331| Alexa.InventoryLevelSensor
-266| 333| 333| Alexa.InventoryLevelUsageSensor
-267| 335| 335| Alexa.InventoryUsageSensor
-268| 339| 339| Alexa.LockController
-269| 344| 344| Alexa.ModeController
-270| 346| 346| Alexa.MotionSensor
-271| 348| 348| Alexa.PercentageController
-272| 351| 351| Alexa.PowerController
-273| 353| 353| Alexa.PowerLevelController
-274| 356| 356| Alexa.ProactiveNotificationSource
-275| 360| 360| Alexa.RangeController
-276| 368| 368| Alexa.RTCSessionController
-277| 371| 371| Alexa.SceneController
-278| 373| 373| Alexa.SecurityPanelController
-279| 380| 380| Alexa.SimpleEventSource
-280| 384| 384| alexa-skills-kit-python-sdk.readthedocs.io
-281| 387| 387| Alexa.SmartVision.ObjectDetectionSensor
-282| 390| 390| Alexa.SmartVision.SnapshotProvider
-283| 393| 393| Alexa.Speaker
-284| 396| 396| Alexa.StepSpeaker
-285| 399| 399| Alexa.TemperatureSensor
-286| 401| 401| Alexa.ThermostatController
-287| 409| 409| Alexa.TimeHoldController
-288| 414| 414| Alexa.ToggleController
-289| 422| 422| Alexa.WakeOnLANController
-290| 424| 424| Amazon.com
-291| 425| 425| amazonexteu.qualtrics.com
-292| 426| 426| AMAZON.LITERAL
-293| 428| 428| amazon.science
-294| 429| 429| api.spotify.com
-295| 431| 431| ask-sdk-controls-typedoc.s3-website-us-east-1.amazonaws.com
-296| 432| 432| ask-sdk-java-javadocs.s3-website-us-west-2.amazonaws.com
-297| 433| 433| ask-sdk-node-typedoc.s3-website-us-east-1.amazonaws.com
-298| 434| 434| aws.amazon.com
-299| 437| 437| build.amazonalexadev.com
-300| 439| 439| business.amazon.com
-301| 442| 442| community.spotify.com
-302| 446| 446| developer.amazon.com
-303| 447| 447| developer-assets.spotifycdn.com
-304| 448| 448| developer.integ.amazon.com
-305| 450| 450| forums.developer.amazon.com
-306| 454| 454| html.games.alexa.a2z.com
-307| 458| 458| m.media-amazon.com
-308| 459| 459| open.spotify.com
-309| 481| accounts.spotify.com
-310| 483| amazon.com
-311| 484| api.spotify.com
-312| 486| ask-sdk-controls-typedoc.s3-website-us-east-1.amazonaws.com
-313| 487| ask-sdk-java-javadocs.s3-website-us-west-2.amazonaws.com
-314| 488| ask-sdk-node-typedoc.s3-website-us-east-1.amazonaws.com
-315| 489| aws.amazon.com
-316| 492| build.amazonalexadev.com
-317| 494| business.amazon.com
-318| 497| community.spotify.com
-319| 501| developer.amazon.com
-320| 502| developer-assets.spotifycdn.com
-321| 503| developer.integ.amazon.com
-322| 505| forums.developer.amazon.com
-323| 509| html.games.alexa.a2z.com
-324| 513| m.media-amazon.com
-325| 514| open.spotify.com
-326| 523| spotify.com
+1| 100| 100| 100| fastly.net
+2| 10| 10| 10| aax.amazon-adsystem.com
+3| 101| 101| 101| fcm.googleapis.com
+4| 102| 102| 102| fcmconnection.googleapis.com
+5| 103| 103| 103| firebase.googleapis.com
+6| 104| 104| 104| firebaselogging.googleapis.com
+7| 105| 105| 105| firetvcaptiveportal.com
+8| 106| 106| 106| flatpak.org
+9| 107| 107| 107| fonts.googleapis.com
+10| 108| 108| 108| fonts.gstatic.com
+11| 109| 109| 109| fpm.connect.synology.com
+12| 110| 110| 110| git-scm.com
+13| 111| 111| 111| github.com
+14| 11| 11| 11| acme-v02.api.letsencrypt.org
+15| 1| 1| 1| a-fds.youborafds01.com
+16| 112| 112| 112| githubassets.com
+17| 113| 113| 113| githubusercontent.com
+18| 114| 114| 114| googleapis.com
+19| 115| 115| 115| googlehomefoyer-pa.clients6.google.com
+20| 116| 116| 116| googlehomefoyer-pa.googleapis.com
+21| 117| 117| 117| gpt.openai.com
+22| 118| 118| 118| gstatic.com
+23| 119| 119| 119| gvt1.com
+24| 120| 120| 120| gvt2.com
+25| 121| 121| 121| gvt3.com
+26| 12| 12| 12| accounts.spotify.com
+27| 122| 122| 122| hass.io
+28| 123| 123| 123| hassio-addons.io
+29| 124| 124| 124| home-assistant.io
+30| 125| 125| 125| homeassistant.lan
+31| 126| 126| 126| homeassistant.local
+32| 127| 127| 127| homeassistant.localdomain
+33| 128| 128| 128| images.tuyacn.com
+34| 129| 129| 129| images.tuyaeu.com
+35| 130| 130| 130| ips1.unifi-ai.com
+36| 131| 131| 131| is.gd
+37| 13| 13| 13| adguard-dns.com
+38| 132| 132| 132| keyserver.ubuntu.com
+39| 133| 133| 133| keyserver.ubuntu.org
+40| 134| 134| 134| kubernetes.io
+41| 135| 135| 135| layla.amazon.com
+42| 136| 136| 136| letsencrypt.org
+43| 137| 137| 137| login.microsoftonline.com
+44| 138| 138| 138| logs.netflix.com
+45| 139| 139| 139| m.smartlife.com
+46| 140| 140| 140| m.tuyaus.com
+47| 141| 141| 141| mads.amazon-adsystem.com
+48| 14| 14| 14| adguard.com
+49| 142| 142| 142| mmechocaptiveportal.com
+50| 143| 143| 143| mobile.pipe.aria.microsoft.com
+51| 144| 144| 144| motd.ubuntu.com
+52| 145| 145| 145| mqtt.googleapis.com
+53| 146| 146| 146| mqtt.local
+54| 147| 147| 147| mqtt.org
+55| 148| 148| 148| mqtt.tuyacn.com
+56| 149| 149| 149| mqtt.tuyaeu.com
+57| 150| 150| 150| mqtt.tuyaus.com
+58| 151| 151| 151| mtalk.google.com
+59| 15| 15| 15| aes.eu-west.ono.axp.amazon-adsystem.com
+60| 152| 152| 152| nabu.casa
+61| 153| 153| 153| nas.local
+62| 154| 154| 154| netflix.com
+63| 155| 155| 155| nflxso.net
+64| 156| 156| 156| nflxvideo.net
+65| 157| 157| 157| nodejs.dev
+66| 158| 158| 158| nodejs.org
+67| 159| 159| 159| ntp.ubuntu.com
+68| 160| 160| 160| ocsp.int-x3.letsencrypt.org
+69| 161| 161| 161| octopi.local
+70| 16| 16| 16| alexa.amazon.com
+71| 162| 162| 162| openai.com
+72| 163| 163| 163| ota-cloudfront.samsung.com
+73| 164| 164| 164| p2p.tuyacn.com
+74| 165| 165| 165| p2p.tuyaeu.com
+75| 166| 166| 166| p2p.tuyaus.com
+76| 167| 167| 167| packages.linuxmint.com
+77| 168| 168| 168| packages.ubuntu.com
+78| 169| 169| 169| pagead2.googlesyndication.com
+79| 170| 170| 170| pi.hole
+80| 171| 171| 171| pitangui.amazon.com
+81| 17| 17| 17| alexa.amazon.de
+82| 172| 172| 172| play.google.com
+83| 173| 173| 173| play.googleapis.com
+84| 174| 174| 174| pool.ntp.org
+85| 175| 175| 175| ports.ubuntu.com
+86| 176| 176| 176| ppa.launchpad.net
+87| 177| 177| 177| printer.local
+88| 178| 178| 178| prod-agic-ne-2.northeurope.cloudfront.azure.com
+89| 179| 179| 179| prod-atm-wds-signals.trafficmanager.net
+90| 180| 180| 180| prophet.heise.de
+91| 181| 181| 181| pscdn.co
+92| 18| 18| 18| alt4-mtalk.google.com
+93| 182| 182| 182| px1.smartlife.com
+94| 183| 183| 183| px1.tuyaus.com
+95| 184| 184| 184| pypi.org
+96| 185| 185| 185| python.org
+97| 186| 186| 186| quay.io
+98| 187| 187| 187| raw.githubusercontent.com
+99| 188| 188| 188| registry.fedoraproject.org
+100| 189| 189| 189| registry.npmjs.org
+101| 190| 190| 190| registry.yarnpkg.com
+102| 191| 191| 191| relays.syncthing.net
+103| 19| 19| 19| alt8-mtalk.google.com
+104| 192| 192| 192| releases.ubuntu.com
+105| 193| 193| 193| repo.kali.org
+106| 194| 194| 194| router.local
+107| 195| 195| 195| s.amazon-adsystem.com
+108| 196| 196| 196| s.click.aliexpress.com
+109| 197| 197| 197| samsung.com
+110| 198| 198| 198| samsungcloud.com
+111| 199| 199| 199| scdn.co
+112| 200| 200| 200| secure-eu.nmrodam.com
+113| 201| 201| 201| securepubads.g.doubleclick.net
+114| 20| 20| 20| amazon.com
+115| 202| 202| 202| security.ubuntu.com
+116| 203| 203| 203| signals.urs.microsoft.com
+117| 204| 204| 204| smartlife.com
+118| 205| 205| 205| smartthings.com
+119| 206| 206| 206| snapcraft.io
+120| 207| 207| 207| softwareupdates.amazon.com
+121| 208| 208| 208| sourceforge.net
+122| 209| 209| 209| spclient.wg.spotify.com
+123| 210| 210| 210| spectrum.s3.amazonaws.com
+124| 211| 211| 211| spotilocal.com
+125| 21| 21| 21| amazonalexa.com
+126| 212| 212| 212| spotify.com
+127| 213| 213| 213| spotifycdn.com
+128| 214| 214| 214| spotifycdn.net
+129| 215| 215| 215| stackoverflow.com
+130| 216| 216| 216| static.cloudflareinsights.com
+131| 217| 217| 217| static.doubleclick.net
+132| 218| 218| 218| supervisor.home-assistant.io
+133| 219| 219| 219| surplife.com
+134| 220| 220| 220| synology.com
+135| 221| 221| 221| synology.local
+136| 222| 222| 222| tailscale.com
+137| 22| 22| 22| amazonvideo.com
+138| 2| 2| 2| a.smartlife.com
+139| 223| 223| 223| tasmota.local
+140| 224| 224| 224| time.cloudflare.com
+141| 225| 225| 225| time.google.com
+142| 226| 226| 226| tospotify.com
+143| 227| 227| 227| tuya.com
+144| 228| 228| 228| tuyacn.com
+145| 229| 229| 229| tuyaeu.com
+146| 230| 230| 230| tuyaus.com
+147| 231| 231| 231| unpkg.com
+148| 232| 232| 232| update.tailscale.com
+149| 23| 23| 23| amcs-pa.clients.amazon.com
+150| 233| 233| 233| updates.google.com
+151| 234| 234| 234| updates.home-assistant.io
+152| 235| 235| 235| updates.proxmox.com
+153| 236| 236| 236| updates.signal.org
+154| 237| 237| 237| www.googleapis.com
+155| 238| 238| 238| www.googletagmanager.com
+156| 239| 239| 239| www.synology.com
+157| 240| 240| 240| www.youtube.com
+158| 241| 241| 241| yarnpkg.com
+159| 242| 242| 242| youtube-ui.l.google.com
+160| 24| 24| 24| android.apis.google.com
+161| 243| 243| 243| youtube.com
+162| 244| 244| 244| ytimg.com
+163| 245| 245| 245| community.spotify.com
+164| 246| 246| 246| developer-assets.spotifycdn.com
+165| 247| 247| 247| www.spotify.com
+166| 25| 25| 25| android.clients.google.com
+167| 255| 255| accounts.spotify.com
+168| 262| 262| Alexa.AutomationManagement
+169| 26| 26| 26| android.googleapis.com
+170| 265| 265| Alexa.BrightnessController
+171| 267| 267| Alexa.CameraStreamController
+172| 270| 270| Alexa.ChannelController
+173| 272| 272| Alexa.ColorController
+174| 27| 27| 27| api.amazonalexa.com
+175| 274| 274| Alexa.ColorTemperatureController
+176| 276| 276| Alexa.Commissionable
+177| 280| 280| Alexa.ContactSensor
+178| 282| 282| Alexa.Cooking
+179| 28| 28| 28| api.eu-west-1.aiv-delivery.net
+180| 291| 291| Alexa.DataController
+181| 29| 29| 29| api.eu.amazonalexa.com
+182| 294| 294| alexa.design
+183| 296| 296| Alexa.DeviceUsage
+184| 30| 30| 30| api.met.no
+185| 303| 303| Alexa.DoorbellEventSource
+186| 307| 307| Alexa.EqualizerController
+187| 31| 31| 31| api.snapcraft.io
+188| 32| 32| 32| api.spotify.com
+189| 325| 325| Alexa.HumiditySensor
+190| 327| 327| Alexa.InputController
+191| 331| 331| Alexa.InventoryLevelSensor
+192| 333| 333| Alexa.InventoryLevelUsageSensor
+193| 33| 33| 33| api.tuyacn.com
+194| 3| 3| 3| a.tuyacn.com
+195| 335| 335| Alexa.InventoryUsageSensor
+196| 339| 339| Alexa.LockController
+197| 34| 34| 34| api.tuyaeu.com
+198| 344| 344| Alexa.ModeController
+199| 346| 346| Alexa.MotionSensor
+200| 348| 348| Alexa.PercentageController
+201| 351| 351| Alexa.PowerController
+202| 353| 353| Alexa.PowerLevelController
+203| 35| 35| 35| api.tuyaus.com
+204| 356| 356| Alexa.ProactiveNotificationSource
+205| 360| 360| Alexa.RangeController
+206| 36| 36| 36| app-measurement.com
+207| 368| 368| Alexa.RTCSessionController
+208| 371| 371| Alexa.SceneController
+209| 373| 373| Alexa.SecurityPanelController
+210| 37| 37| 37| apt.armbian.com
+211| 380| 380| Alexa.SimpleEventSource
+212| 38| 38| 38| archive.canonical.com
+213| 384| 384| alexa-skills-kit-python-sdk.readthedocs.io
+214| 387| 387| Alexa.SmartVision.ObjectDetectionSensor
+215| 390| 390| Alexa.SmartVision.SnapshotProvider
+216| 393| 393| Alexa.Speaker
+217| 39| 39| 39| archive.raspberrypi.org
+218| 396| 396| Alexa.StepSpeaker
+219| 399| 399| Alexa.TemperatureSensor
+220| 401| 401| Alexa.ThermostatController
+221| 40| 40| 40| archive.ubuntu.com
+222| 409| 409| Alexa.TimeHoldController
+223| 41| 41| 41| arcus-uswest.amazon.com
+224| 414| 414| Alexa.ToggleController
+225| 422| 422| Alexa.WakeOnLANController
+226| 42| 42| 42| avs-alexa-na.amazon.com
+227| 424| 424| Amazon.com
+228| 425| 425| amazonexteu.qualtrics.com
+229| 426| 426| AMAZON.LITERAL
+230| 428| 428| amazon.science
+231| 429| 429| api.spotify.com
+232| 431| 431| ask-sdk-controls-typedoc.s3-website-us-east-1.amazonaws.com
+233| 432| 432| ask-sdk-java-javadocs.s3-website-us-west-2.amazonaws.com
+234| 433| 433| ask-sdk-node-typedoc.s3-website-us-east-1.amazonaws.com
+235| 43| 43| 43| beacons5.gvt2.com
+236| 434| 434| aws.amazon.com
+237| 437| 437| build.amazonalexadev.com
+238| 439| 439| business.amazon.com
+239| 442| 442| community.spotify.com
+240| 44| 44| 44| beacons5.gvt3.com
+241| 4| 4| 4| a.tuyaeu.com
+242| 446| 446| developer.amazon.com
+243| 447| 447| developer-assets.spotifycdn.com
+244| 448| 448| developer.integ.amazon.com
+245| 450| 450| forums.developer.amazon.com
+246| 454| 454| html.games.alexa.a2z.com
+247| 45| 45| 45| browser-intake-datadoghq.com
+248| 458| 458| m.media-amazon.com
+249| 459| 459| open.spotify.com
+250| 46| 46| 46| browser.pipe.aria.microsoft.com
+251| 47| 47| 47| c.amazon-adsystem.com
+252| 481| accounts.spotify.com
+253| 483| amazon.com
+254| 48| 48| 48| captive.apple.com
+255| 484| api.spotify.com
+256| 486| ask-sdk-controls-typedoc.s3-website-us-east-1.amazonaws.com
+257| 487| ask-sdk-java-javadocs.s3-website-us-west-2.amazonaws.com
+258| 488| ask-sdk-node-typedoc.s3-website-us-east-1.amazonaws.com
+259| 489| aws.amazon.com
+260| 492| build.amazonalexadev.com
+261| 49| 49| 49| casaos-appstore.paodayag.dev
+262| 494| business.amazon.com
+263| 497| community.spotify.com
+264| 501| developer.amazon.com
+265| 502| developer-assets.spotifycdn.com
+266| 503| developer.integ.amazon.com
+267| 50| 50| 50| cast.google.com
+268| 505| forums.developer.amazon.com
+269| 509| html.games.alexa.a2z.com
+270| 513| m.media-amazon.com
+271| 514| open.spotify.com
+272| 51| 51| 51| cast.googleapis.com
+273| 523| spotify.com
+274| 52| 52| 52| cdn.jsdelivr.net
+275| 53| 53| 53| cdn.cloudflare.com
+276| 54| 54| 54| cdn.openai.com
+277| 55| 55| 55| cdn.optimizely.com
+278| 5| 5| 5| a.tuyaus.com
+279| 56| 56| 56| cdn.proxmox.com
+280| 57| 57| 57| cdnjs.cloudflare.com
+281| 58| 58| 58| changelogs.ubuntu.com
+282| 59| 59| 59| chat.openai.com
+283| 60| 60| 60| checkip.synology.com
+284| 61| 61| 61| checkonline.home-assistant.io
+285| 62| 62| 62| clients.l.google.com
+286| 63| 63| 63| clients4.google.com
+287| 64| 64| 64| cloud-images.ubuntu.com
+288| 65| 65| 65| cloudflare-dns.com
+289| 66| 66| 66| cloudsync-tw.synology.com
+290| 6| 6| 6| a2ds1q2tpdj48u.us-east-1.prod.service.minerva.devices.a2z.com
+291| 67| 67| 67| cloudsync.cs.quickconnect.to
+292| 68| 68| 68| collector.github.com
+293| 69| 69| 69| community.home-assistant.io
+294| 70| 70| 70| connectivitycheck.gstatic.com
+295| 71| 71| 71| controlplane.tailscale.com
+296| 72| 72| 72| d3p82r0ffa9t17.cloudfront.net
+297| 73| 73| 73| dcg.microsoft.com
+298| 74| 74| 74| deb.debian.org
+299| 75| 75| 75| device-metrics.amazon.com
+300| 76| 76| 76| device-metrics-us-2.amazon.com
+301| 77| 77| 77| device-metrics-us.amazon.com
+302| 7| 7| 7| a3-eu.lifeaiot.com
+303| 78| 78| 78| device-metrics-us.samsung.com
+304| 79| 79| 79| discovery-announce-v4.syncthing.net
+305| 80| 80| 80| discovery-announce-v6.syncthing.net
+306| 81| 81| 81| discovery.syncthing.net
+307| 82| 82| 82| dl.flathub.org
+308| 83| 83| 83| dl.google.com
+309| 84| 84| 84| docker.io
+310| 85| 85| 85| docs.github.com
+311| 86| 86| 86| download.mono-project.com
+312| 87| 87| 87| downloads.plex.tv
+313| 88| 88| 88| downloads.raspberrypi.org
+314| 8| 8| 8| aax-eu.amazon-adsystem.com
+315| 89| 89| 89| downloads.sentry-cdn.com
+316| 90| 90| 90| dp-gw-eu.amazon.com
+317| 91| 91| 91| dp-gw-na.amazon.com
+318| 92| 92| 92| drivefrontend-pa.googleapis.com
+319| 93| 93| 93| duckdns.org
+320| 94| 94| 94| electronjs.org
+321| 95| 95| 95| enterprise.proxmox.com
+322| 96| 96| 96| ery-lookup.syncthing.net
+323| 97| 97| 97| esphome.local
+324| 98| 98| 98| event-collector.prd.data.s.joyn.de
+325| 99| 99| 99| extra.linuxmint.com
+326| 9| 9| 9| aax-eu.amazon.de
 327| accounts.spotify.com
 328| Alexa.AutomationManagement
 329| Alexa.BrightnessController
@@ -335,52 +335,51 @@
 335| Alexa.ContactSensor
 336| Alexa.Cooking
 337| Alexa.DataController
-338| alexa.design
-339| Alexa.DeviceUsage
-340| Alexa.DoorbellEventSource
-341| Alexa.EqualizerController
-342| Alexa.HumiditySensor
-343| Alexa.InputController
-344| Alexa.InventoryLevelSensor
-345| Alexa.InventoryLevelUsageSensor
-346| Alexa.InventoryUsageSensor
-347| Alexa.LockController
-348| Alexa.ModeController
-349| Alexa.MotionSensor
-350| Alexa.PercentageController
-351| Alexa.PowerController
-352| Alexa.PowerLevelController
-353| Alexa.ProactiveNotificationSource
-354| Alexa.RangeController
-355| Alexa.RTCSessionController
-356| Alexa.SceneController
-357| Alexa.SecurityPanelController
-358| Alexa.SimpleEventSource
-359| alexa-skills-kit-python-sdk.readthedocs.io
-360| Alexa.SmartVision.ObjectDetectionSensor
-361| Alexa.SmartVision.SnapshotProvider
-362| Alexa.Speaker
-363| Alexa.StepSpeaker
-364| Alexa.TemperatureSensor
-365| Alexa.ThermostatController
-366| Alexa.TimeHoldController
-367| Alexa.ToggleController
-368| Alexa.WakeOnLANController
-369| Amazon.com
-370| amazonexteu.qualtrics.com
-371| AMAZON.LITERAL
-372| amazon.science
-373| api.spotify.com
-374| ask-sdk-controls-typedoc.s3-website-us-east-1.amazonaws.com
-375| ask-sdk-java-javadocs.s3-website-us-west-2.amazonaws.com
-376| ask-sdk-node-typedoc.s3-website-us-east-1.amazonaws.com
-377| aws.amazon.com
-378| build.amazonalexadev.com
-379| business.amazon.com
-380| community.spotify.com
-381| developer.amazon.com
-382| developer-assets.spotifycdn.com
-383| developer.integ.amazon.com
-384| forums.developer.amazon.com
-385| m.media-amazon.com
-386| open.spotify.com
+338| Alexa.DeviceUsage
+339| Alexa.DoorbellEventSource
+340| Alexa.EqualizerController
+341| Alexa.HumiditySensor
+342| Alexa.InputController
+343| Alexa.InventoryLevelSensor
+344| Alexa.InventoryLevelUsageSensor
+345| Alexa.InventoryUsageSensor
+346| Alexa.LockController
+347| Alexa.ModeController
+348| Alexa.MotionSensor
+349| Alexa.PercentageController
+350| Alexa.PowerController
+351| Alexa.PowerLevelController
+352| Alexa.ProactiveNotificationSource
+353| Alexa.RangeController
+354| Alexa.RTCSessionController
+355| Alexa.SceneController
+356| Alexa.SecurityPanelController
+357| Alexa.SimpleEventSource
+358| alexa-skills-kit-python-sdk.readthedocs.io
+359| Alexa.SmartVision.ObjectDetectionSensor
+360| Alexa.SmartVision.SnapshotProvider
+361| Alexa.Speaker
+362| Alexa.StepSpeaker
+363| Alexa.TemperatureSensor
+364| Alexa.ThermostatController
+365| Alexa.TimeHoldController
+366| Alexa.ToggleController
+367| Alexa.WakeOnLANController
+368| Amazon.com
+369| amazonexteu.qualtrics.com
+370| AMAZON.LITERAL
+371| amazon.science
+372| api.spotify.com
+373| ask-sdk-controls-typedoc.s3-website-us-east-1.amazonaws.com
+374| ask-sdk-java-javadocs.s3-website-us-west-2.amazonaws.com
+375| ask-sdk-node-typedoc.s3-website-us-east-1.amazonaws.com
+376| aws.amazon.com
+377| build.amazonalexadev.com
+378| business.amazon.com
+379| community.spotify.com
+380| developer.amazon.com
+381| developer-assets.spotifycdn.com
+382| developer.integ.amazon.com
+383| forums.developer.amazon.com
+384| m.media-amazon.com
+385| open.spotify.com
