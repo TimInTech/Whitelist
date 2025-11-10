@@ -13,3 +13,8 @@ additions-candidate.txt
 current*.txt
 new-*.txt
 cacert.pem
+.venv/
+node_modules/
+vendor/bundle/
+.bundle/
+.npm-cache/
