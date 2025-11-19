@@ -41,7 +41,7 @@ for url in "${SOURCES[@]}"; do
   curl -fsSL "$url" | tr '"'\''<>()[]{} ' '\n' | grep -Eo '([a-zA-Z0-9.-]+\.[a-zA-Z]{2,})' || true
 done > new-hosts-raw.txt
 
-# 5) Filter: echte Hostnamen, keine Dateinamen/Seiten
+# 5) Filter: echte Hostnamen, keine Dateinamen/Seiten, keine Capability-Tokens
 cat new-hosts-raw.txt \
   | grep -Ei 'amazon|alexa|spotify' \
   | sed -E 's/[:/].*$//' \
@@ -49,6 +49,7 @@ cat new-hosts-raw.txt \
   | sed 's/^www\.//' \
   | grep -Ev '\.(html|htm|png|jpg|jpeg|svg|gif|css|js|pdf|ico|webp)$' \
   | grep -Ev '^[A-Za-z0-9._-]+\.a2z\.com$' \
+  | grep -Ev '^(Alexa\.[A-Za-z0-9]+|AMAZON\.LITERAL)$' \
   | awk 'length($0)<=253' \
   | sort -u > new-hosts-candidates.txt
 
