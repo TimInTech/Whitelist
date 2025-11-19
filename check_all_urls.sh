@@ -17,16 +17,23 @@ fi
 cd "$REPO_DIR"
 test -f "$WL_NBR" || { echo "Fehlt: $WL_NBR"; exit 1; }
 
-# 1) Plain-Quelle erzeugen, falls nicht vorhanden
-if [ ! -f "$WL_PLAIN" ]; then
-  awk -F'|[[:space:]]+' '{print $NF}' "$WL_NBR" \
-    | sed -E 's/^[[:space:]]+|[[:space:]]+$//g' \
-    | grep -E '^[A-Za-z0-9.-]+\.[A-Za-z]{2,}$' \
-    | grep -Ev '\.(html|htm|png|jpg|jpeg|svg|gif|css|js|pdf|ico|webp|zip|gz|bz2|tar)$' \
-    | sed 's/^www\.//' \
-    | awk 'length($0)<=253' \
-    | sort -u > "$WL_PLAIN"
-fi
+# --- CA-Bundle laden und setzen ---
+CA_FILE="$PWD/cacert.pem"
+[ -f "$CA_FILE" ] || curl -sSL https://curl.se/ca/cacert.pem -o "$CA_FILE"
+export CURL_CA_BUNDLE="$CA_FILE"
+
+# --- Negativliste für Nicht-HTTPS-Dienste/Hostmuster ---
+NEG_PAT='(^|[.])(ntp|mqtt|ocsp|syncthing|lan|local|localdomain)$|(^nabu\.casa$)|(^hassio-addons\.io$)|(^supervisor\.home-assistant\.io$)'
+
+# 1) Plain-Whitelist erzeugen mit vollständiger Filterung
+awk -F'|' '{gsub(/^[ \t]+|[ \t]+$/,"",$NF); print $NF}' "$WL_NBR" \
+  | grep -E '^[A-Za-z0-9.-]+\.[A-Za-z]{2,}$' \
+  | grep -Ev '\.(html|htm|png|jpg|jpeg|svg|gif|css|js|pdf|ico|webp|zip|gz|bz2|tar)$' \
+  | grep -Ev "$NEG_PAT" \
+  | grep -Ev '^(Alexa\.[A-Za-z0-9]+|AMAZON\.LITERAL)$' \
+  | sed 's/^www\.//' \
+  | awk 'length($0)<=253' \
+  | sort -u > "$WL_PLAIN"
 
 echo "Hosts in Prüfung: $(wc -l < "$WL_PLAIN")"
 
@@ -53,14 +60,14 @@ check_head() {
   local hops=0
   local last="$host"
   while [ $hops -lt 3 ]; do
-    # Status und Location lesen
+    # Status und Location lesen mit CA-Bundle
     local hdr
-    if ! hdr=$(curl -I -sS -m 5 -D - "$url" -o /dev/null); then
+    if ! hdr=$(curl -I -sS --http1.1 -m 4 -D - "$url" -o /dev/null 2>/dev/null); then
       echo "$host" >> urls.http_timeout.txt
       return
     fi
     local code=$(printf "%s" "$hdr" | awk 'NR==1{print $2}')
-    local loc=$(printf "%s" "$hdr" | awk 'tolower($1)=="location:"{print $2; exit}')
+    local loc=$(printf "%s" "$hdr" | awk 'tolower($1)=="location:"{print $2; exit}' | tr -d '\r')
     if [[ "$code" =~ ^20[0-9]$ ]]; then
       echo "$host" >> urls.http_ok.txt
       return
@@ -116,26 +123,4 @@ echo "Fertig. Dateien:"
 ls -la urls.* 2>/dev/null || true
 echo "Prüfe urls.redirect_suggestions.md und entscheide, welche Redirects angewendet werden sollen."
 echo "Anwenden (optional, konservativ):"
-echo "  while IFS='|' read -r A B; do sed -i \"s/^\\\${A}$/\\\${B}/\" \"$WL_PLAIN\"; done < urls.redirect_apply.rules && sort -u \"$WL_PLAIN\" -o \"$WL_PLAIN\""
-
-
-# --- CA-Bundle laden und setzen ---
-CA_FILE="$PWD/cacert.pem"
-[ -f "$CA_FILE" ] || curl -sSL https://curl.se/ca/cacert.pem -o "$CA_FILE"
-export CURL_CA_BUNDLE="$CA_FILE"
-
-# --- Negativliste für Nicht-HTTPS-Dienste/Hostmuster ---
-NEG_PAT='(^|[.])(ntp|mqtt|ocsp|syncthing|lan|local|localdomain)$|(^nabu\.casa$)|(^hassio-addons\.io$)|(^supervisor\.home-assistant\.io$)'
-
-# --- Prüfset erzeugen: nur FQDNs, keine lokalen/Interface-Bezeichner ---
-awk '1' "$WL_PLAIN" \
- | grep -E '^[A-Za-z0-9.-]+\.[A-Za-z]{2,}$' \
- | grep -Ev "$NEG_PAT" \
- | grep -Ev '(^|[[:space:]])Alexa\.[A-Za-z]' \
- | sort -u > urls.checkset.txt
-mv urls.checkset.txt "$WL_PLAIN"
-
-# --- Robustere HEAD-Requests (HTTP/1.1, kurze Timeouts, SNI/Resolve) ---
-# In der Funktion, wo der HEAD-Request passiert, ersetze die curl-Zeile analog:
-#   curl -I -sS --http1.1 --resolve "$host:443:$host" -m 4 -D - "$url" -o /dev/null
-
+echo "  while IFS='|' read -r A B; do sed -i \"s/^\${A}$/\${B}/\" \"$WL_PLAIN\"; done < urls.redirect_apply.rules && sort -u \"$WL_PLAIN\" -o \"$WL_PLAIN\""
