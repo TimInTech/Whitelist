@@ -18,3 +18,12 @@ node_modules/
 vendor/bundle/
 .bundle/
 .npm-cache/
+urls.dns_fail.txt
+urls.dns_ok.txt
+urls.http_ok.txt
+urls.http_timeout.txt
+urls.http_suggest.tsv
+urls.redirect_apply.rules
+urls.redirect_suggestions.md
+urls.checkset.txt
+new.sorted.txt
