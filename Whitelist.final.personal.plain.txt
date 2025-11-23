@@ -8,14 +8,14 @@ a3-eu.lifeaiot.com
 aax-eu.amazon-adsystem.com
 aax-eu.amazon.de
 aax.amazon-adsystem.com
-acme-v02.api.letsencrypt.org
 accounts.spotify.com
+acme-v02.api.letsencrypt.org
 adguard-dns.io
 adguard.com
 aes.eu-west.ono.axp.amazon-adsystem.com
+alexa-skills-kit-python-sdk.readthedocs.io
 alexa.amazon.com
 alexa.amazon.de
-alexa-skills-kit-python-sdk.readthedocs.io
 alexa.design
 alt4-mtalk.google.com
 alt8-mtalk.google.com
@@ -60,7 +60,6 @@ casaos-appstore.paodayag.dev
 cast.google.com
 cast.googleapis.com
 cdn.cloudflare.com
-cdn.jsdelivr.net
 cdn.openai.com
 cdn.optimizely.com
 cdn.proxmox.com
@@ -124,8 +123,8 @@ git-scm.com
 github.com
 githubassets.com
 githubusercontent.com
-googleapis.com
 google.com
+googleapis.com
 googlehomefoyer-pa.clients6.google.com
 googlehomefoyer-pa.googleapis.com
 googletagmanager.com
@@ -165,8 +164,8 @@ nflxvideo.net
 nodejs.dev
 nodejs.org
 one.one.one.one
-openai.com
 open.spotify.com
+openai.com
 ota-cloudfront.samsung.com
 p2p.tuyacn.com
 p2p.tuyaeu.com
@@ -213,10 +212,10 @@ softwareupdates.amazon.com
 sourceforge.net
 spclient.wg.spotify.com
 spectrum.s3.amazonaws.com
-spotilocal.com
 spotify.com
 spotifycdn.com
 spotifycdn.net
+spotilocal.com
 stackoverflow.com
 static.cloudflareinsights.com
 static.doubleclick.net
