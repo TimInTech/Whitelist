@@ -1,0 +1,51 @@
+name: Test Whitelist Scripts
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    name: Run Tests
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Install dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y curl dnsutils gawk sed coreutils
+    
+    - name: Run all tests
+      run: |
+        chmod +x tests/*.sh
+        bash tests/run_all_tests.sh
+    
+    - name: Test build_plain_whitelist.sh
+      run: |
+        chmod +x build_plain_whitelist.sh
+        ./build_plain_whitelist.sh
+        
+    - name: Verify output
+      run: |
+        # Check that plain whitelist was created
+        test -f Whitelist.final.personal.plain.txt
+        # Check that it has content
+        [ $(wc -l < Whitelist.final.personal.plain.txt) -gt 0 ]
+        
+    - name: Check for DNS failures (optional)
+      if: false  # Disabled by default as it can fail in CI environment
+      run: |
+        chmod +x check_all_urls.sh
+        ./check_all_urls.sh
+        # Fail if there are DNS resolution failures
+        if [ -s urls.dns_fail.txt ]; then
+          echo "Warning: Some domains failed DNS resolution:"
+          cat urls.dns_fail.txt
+          # Uncomment to fail on DNS errors:
+          # exit 1
+        fi

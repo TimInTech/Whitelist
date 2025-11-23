@@ -1,14 +1,12 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# --- Abhängigkeiten sicherstellen (Ubuntu/Debian) ---
-need() { command -v "$1" >/dev/null 2>&1 || return 1; }
-if ! need git || ! need curl || ! need grep || ! need awk || ! need sed || ! need sort || ! need comm || ! need nl; then
-  if need apt; then
-    sudo apt update -y
-    sudo apt install -y git curl grep gawk sed coreutils diffutils bsdmainutils || true
-  fi
-fi
+# Load common library
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+source "${SCRIPT_DIR}/lib/common.sh"
+
+# Ensure dependencies are available
+ensure_dependencies git curl grep awk sed sort comm nl
 
 REPO_DIR="$(pwd)"
 cd "$REPO_DIR"
@@ -59,17 +57,13 @@ sort -u new-hosts-candidates.txt > new.sorted.txt
 comm -23 new.sorted.txt current.sorted.txt > additions-candidate.txt || true
 
 # 7) Optional: DNS-Livecheck (aufloesbare Hosts behalten)
-if command -v dig >/dev/null 2>&1 && [ -s additions-candidate.txt ]; then
+if need dig && [ -s additions-candidate.txt ]; then
   echo "DNS-Check (optional) läuft ..."
-  : > additions-resolvable.txt
-  while read -r host; do
-    [ -z "$host" ] && continue
-    if dig +time=2 +tries=1 +short "$host" A >/dev/null || dig +time=2 +tries=1 +short "$host" CNAME >/dev/null; then
-      echo "$host" >> additions-resolvable.txt
-    fi
-  done < additions-candidate.txt
-  if [ -s additions-resolvable.txt ]; then
-    mv additions-resolvable.txt additions-candidate.txt
+  check_dns_batch "additions-candidate.txt"
+  
+  # Replace additions-candidate.txt with DNS-validated version
+  if [ -s "additions-candidate.dns_ok.txt" ]; then
+    mv additions-candidate.dns_ok.txt additions-candidate.txt
     echo "DNS-Check fertig, nur auflösbare Hosts verbleiben."
   else
     echo "Keine auflösbaren Hosts gefunden; überspringe Anhängen."
@@ -83,9 +77,9 @@ nl -ba additions-candidate.txt || true
 
 # 9) Sicher anfügen + neu nummerieren
 if [ -s additions-candidate.txt ]; then
-  cp Whitelist.final.personal.txt Whitelist.final.personal.txt.bak
+  create_backup Whitelist.final.personal.txt
   cat additions-candidate.txt >> Whitelist.final.personal.txt
-  awk 'NF{print NR"| "$0}' Whitelist.final.personal.txt > Whitelist.final.personal.txt.tmp
+  renumber_whitelist Whitelist.final.personal.txt > Whitelist.final.personal.txt.tmp
   mv Whitelist.final.personal.txt.tmp Whitelist.final.personal.txt
   git add Whitelist.final.personal.txt
   git commit -m "chore(whitelist): add/update Amazon Alexa + Spotify hostnames (filtered)"

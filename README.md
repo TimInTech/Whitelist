@@ -75,6 +75,42 @@ Add this line to run daily at 06:00:
 
 ---
 
+## 🧪 Development
+
+### Code Structure
+
+The repository has been refactored to improve code organization and testability:
+
+* **`lib/common.sh`** - Shared library with reusable functions:
+  - Dependency management (`ensure_dependencies`, `need`)
+  - Hostname filtering and validation (`filter_valid_hosts`)
+  - DNS and HTTPS checking (`check_dns_resolution`, `check_https_head`)
+  - Whitelist management (`renumber_whitelist`, `extract_hostnames_from_numbered_list`)
+  - Git operations (`commit_and_push`, `has_git_changes`)
+
+* **`tests/`** - Test suite for validation:
+  - `test_common.sh` - Unit tests for library functions
+  - `test_integration.sh` - Integration tests for workflows
+  - `run_all_tests.sh` - Test runner for all tests
+
+### Running Tests
+
+To verify the scripts work correctly:
+
+```bash
+bash tests/run_all_tests.sh
+```
+
+### Scripts
+
+All scripts now use the shared library to avoid code duplication:
+
+* `build_plain_whitelist.sh` - Regenerate plain whitelist from numbered version
+* `update_alexa_spotify_whitelist.sh` - Crawl and update Alexa/Spotify domains
+* `check_all_urls.sh` - Validate domains with DNS and HTTPS checks
+* `whitelist_audit_update.sh` - Audit and normalize whitelist entries
+
+---
+
 Maintained by [TimInTech](https://github.com/TimInTech)
 Feedback and PRs welcome!
-
