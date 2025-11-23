@@ -261,5 +261,10 @@ print_section() {
 # Count lines in file
 # Usage: count_lines "file.txt"
 count_lines() {
-  wc -l < "$1" 2>/dev/null || echo 0
+  local file="$1"
+  if [ -f "$file" ]; then
+    wc -l < "$file" 2>/dev/null || echo 0
+  else
+    echo 0
+  fi
 }

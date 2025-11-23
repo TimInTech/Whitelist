@@ -28,20 +28,6 @@ assert_file_exists() {
   fi
 }
 
-assert_command_succeeds() {
-  local test_name="$1"
-  TESTS_RUN=$((TESTS_RUN + 1))
-  echo "✓ PASS: $test_name"
-  TESTS_PASSED=$((TESTS_PASSED + 1))
-}
-
-assert_command_fails() {
-  local test_name="$1"
-  TESTS_RUN=$((TESTS_RUN + 1))
-  echo "✗ FAIL: $test_name"
-  TESTS_FAILED=$((TESTS_FAILED + 1))
-}
-
 # Create test environment
 TEST_DIR=$(mktemp -d)
 trap "rm -rf $TEST_DIR" EXIT

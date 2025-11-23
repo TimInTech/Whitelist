@@ -31,14 +31,15 @@ assert_equals() {
   fi
 }
 
-assert_true() {
+# Test framework functions (simplified for this test suite)
+mark_test_passed() {
   local test_name="$1"
   TESTS_RUN=$((TESTS_RUN + 1))
   echo "✓ PASS: $test_name"
   TESTS_PASSED=$((TESTS_PASSED + 1))
 }
 
-assert_false() {
+mark_test_failed() {
   local test_name="$1"
   TESTS_RUN=$((TESTS_RUN + 1))
   echo "✗ FAIL: $test_name"
@@ -146,9 +147,9 @@ echo "Testing create_backup..."
 echo "test content" > "$TEST_DIR/test.txt"
 create_backup "$TEST_DIR/test.txt" 2>/dev/null
 if [ -f "$TEST_DIR/test.txt.bak" ]; then
-  assert_true "create_backup: creates .bak file"
+  mark_test_passed "create_backup: creates .bak file"
 else
-  assert_false "create_backup: creates .bak file"
+  mark_test_failed "create_backup: creates .bak file"
 fi
 
 backup_content=$(cat "$TEST_DIR/test.txt.bak")
@@ -182,16 +183,16 @@ echo "Testing check_dns_resolution..."
 if need dig; then
   # Test with well-known domain
   if check_dns_resolution "google.com"; then
-    assert_true "check_dns_resolution: resolves google.com"
+    mark_test_passed "check_dns_resolution: resolves google.com"
   else
-    assert_false "check_dns_resolution: resolves google.com"
+    mark_test_failed "check_dns_resolution: resolves google.com"
   fi
   
   # Test with invalid domain (note: some DNS resolvers may still resolve this)
   if check_dns_resolution "this-domain-definitely-does-not-exist-12345.invalid"; then
     echo "⊘ SKIP: check_dns_resolution negative test (DNS resolver returns results for invalid domains)"
   else
-    assert_true "check_dns_resolution: fails on invalid domain"
+    mark_test_passed "check_dns_resolution: fails on invalid domain"
   fi
 else
   echo "⊘ SKIP: check_dns_resolution tests (dig not available)"
