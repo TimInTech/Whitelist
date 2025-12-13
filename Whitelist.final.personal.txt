@@ -149,3 +149,111 @@
 149| 234| update.tailscale.com
 150| 235| updates.google.com
 151| 236| updates.home-assistant.io
+152| 237| updates.proxmox.com
+153| 238| updates.signal.org
+154| 239| yarnpkg.com
+155| 23| amazon.science
+156| 240| youtube-ui.l.google.com
+157| 241| youtube.com
+158| 242| ytimg.com
+159| 24| amazonalexa.com
+160| 25| amazonexteu.qualtrics.com
+161| 26| amazonvideo.com
+162| 27| amcs-pa.clients.amazon.com
+163| 28| android.apis.google.com
+164| 29| android.clients.google.com
+165| 2| a.smartlife.com
+166| 30| android.googleapis.com
+167| 31| api.amazonalexa.com
+168| 32| api.eu-west-1.aiv-delivery.net
+169| 33| api.eu.amazonalexa.com
+170| 34| api.met.no
+171| 35| api.snapcraft.io
+172| 36| api.spotify.com
+173| 37| api.tuyacn.com
+174| 38| api.tuyaeu.com
+175| 39| api.tuyaus.com
+176| 3| a.tuyacn.com
+177| 40| app-measurement.com
+178| 41| apt.armbian.com
+179| 42| archive.canonical.com
+180| 43| archive.raspberrypi.org
+181| 44| archive.ubuntu.com
+182| 45| arcus-uswest.amazon.com
+183| 46| ask-sdk-controls-typedoc.s3-website-us-east-1.amazonaws.com
+184| 47| ask-sdk-java-javadocs.s3-website-us-west-2.amazonaws.com
+185| 48| ask-sdk-node-typedoc.s3-website-us-east-1.amazonaws.com
+186| 49| avs-alexa-na.amazon.com
+187| 4| a.tuyaeu.com
+188| 50| aws.amazon.com
+189| 51| beacons5.gvt2.com
+190| 52| beacons5.gvt3.com
+191| 53| browser-intake-datadoghq.com
+192| 54| browser.pipe.aria.microsoft.com
+193| 55| build.amazonalexadev.com
+194| 56| business.amazon.com
+195| 57| c.amazon-adsystem.com
+196| 58| captive.apple.com
+197| 59| casaos-appstore.paodayag.dev
+198| 5| a.tuyaus.com
+199| 60| cast.google.com
+200| 61| cast.googleapis.com
+201| 62| cdn.cloudflare.com
+202| 63| cdn.jsdelivr.net
+203| 64| cdn.openai.com
+204| 65| cdn.optimizely.com
+205| 66| cdn.proxmox.com
+206| 67| cdnjs.cloudflare.com
+207| 68| changelogs.ubuntu.com
+208| 69| chat.openai.com
+209| 6| a2ds1q2tpdj48u.us-east-1.prod.service.minerva.devices.a2z.com
+210| 70| chatgpt.com
+211| 71| checkip.synology.com
+212| 72| checkonline.home-assistant.io
+213| 73| clients.l.google.com
+214| 74| clients4.google.com
+215| 75| cloud-images.ubuntu.com
+216| 76| cloudflare-dns.com
+217| 77| cloudsync-tw.synology.com
+218| 78| cloudsync.cs.quickconnect.to
+219| 79| collector.github.com
+220| 7| a3-eu.lifeaiot.com
+221| 80| community.home-assistant.io
+222| 81| community.spotify.com
+223| 82| connectivitycheck.gstatic.com
+224| 83| controlplane.tailscale.com
+225| 84| d3p82r0ffa9t17.cloudfront.net
+226| 85| dcg.microsoft.com
+227| 86| deb.debian.org
+228| 87| developer-assets.spotifycdn.com
+229| 88| developer.amazon.com
+230| 89| developer.integ.amazon.com
+231| 8| aax-eu.amazon-adsystem.com
+232| 90| developer.spotify.com
+233| 91| device-metrics-us-2.amazon.com
+234| 92| device-metrics-us.amazon.com
+235| 93| device-metrics-us.samsung.com
+236| 94| device-metrics.amazon.com
+237| 95| dl.flathub.org
+238| 96| dl.google.com
+239| 97| docker.com
+240| 98| docker.io
+241| 99| docs.github.com
+242| 9| aax-eu.amazon.de
+243| Alexa.SmartVision.ObjectDetectionSensor
+244| Alexa.SmartVision.SnapshotProvider
+245| accounts.spotify.com
+246| amazon.com
+247| ask-sdk-controls-typedoc.s3-website-us-east-1.amazonaws.com
+248| ask-sdk-java-javadocs.s3-website-us-west-2.amazonaws.com
+249| ask-sdk-node-typedoc.s3-website-us-east-1.amazonaws.com
+250| aws.amazon.com
+251| build.amazonalexadev.com
+252| business.amazon.com
+253| community.spotify.com
+254| developer-assets.spotifycdn.com
+255| developer.amazon.com
+256| developer.spotify.com
+257| forums.developer.amazon.com
+258| m.media-amazon.com
+259| open.spotify.com
