@@ -60,7 +60,6 @@ casaos-appstore.paodayag.dev
 cast.google.com
 cast.googleapis.com
 cdn.cloudflare.com
-cdn.jsdelivr.net
 cdn.openai.com
 cdn.optimizely.com
 cdn.proxmox.com
